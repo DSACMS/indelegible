@@ -14,12 +14,19 @@ libyears is credited in its Feature007 retrospective; it is interpretation
 supplied through the human, distinct from authoring, execution and review.
 No new conversational synthesis is represented as an independent observation.
 
+Current navigation: [README.md](README.md) now consolidates the principles and
+operating guidance. Initial destination filenames below describe their historical
+extraction homes; `MANIFESTO.md` and `GUIDE.md` are preserved in Git at
+`85183e3c88bf0d281c6a5f165e6903da0948411e`, before their intentional removal.
+The source inventory and prior review boundaries remain unchanged. No libyears
+access or new source inspection was performed for this consolidation.
+
 ## What came across, and what stayed behind
 
 | Material class | Extraction decision |
 | --- | --- |
 | Demonstrated practice | Retain readable authority/evidence pointers, frozen review candidates, focused corrections and restart continuity. Evidence supports these mechanisms, not universal effectiveness. |
-| Adopted source rule needing adaptation | Working-tree preservation, scoped grants, actor distinctions and review dispositions become Indelegible guidance in AGENTS.md and GUIDE.md. Libyears remains authoritative only for itself. |
+| Adopted source rule needing adaptation | Working-tree preservation, scoped grants, actor distinctions and review dispositions became Indelegible guidance, now owned by AGENTS.md and README.md. Libyears remains authoritative only for itself. |
 | Exploratory proposal | Portable harness generality, optimal model routing and attention savings remain hypotheses. No runtime, Skill or distribution mechanism is selected. |
 | Historical evidence | Summarize the source recovery witness separately from this repository's first use. Preserve qualifications and identifiers, not operational state. |
 | Repository-specific machinery | Leave behind product/metric/ecosystem contracts, the real ledger, its 44-field schema/helper, private handoffs, telemetry, trust references and operational evidence. |
@@ -71,7 +78,7 @@ establish a real second-repository task trial or isolate which guidance helped.
 ## Supplied original and current synthesis
 
 The original was unavailable during the initial extraction and its historical
-review; those records retain that finding. For the current editorial task, the
+review; those records retain that finding. For the earlier editorial task, the
 human supplied `human-legible-agentic-software-development.md` as the only initial
 untracked file. Its title is “Human-Legible Agentic Software Development” with
 subtitle “A working note on conserving human attention” and status Exploratory.
@@ -87,17 +94,19 @@ location passed. A separate exact local copy permits final rechecking.
 Its proposed guidance, candidate experiments, SuperChangelog discussion and
 Feature002 next steps remain exploratory history, not current instructions.
 
-[MANIFESTO.md](MANIFESTO.md) is new editorial synthesis, not a recovered original.
-[The editorial task record](REVIEW.md#manifesto-editorial-task) explains retained,
-revised and deferred ideas and records independent review. The current principles
-reference GUIDE.md's four primitives without relocating their authority.
+The [current README principles](README.md#principles) are editorial synthesis,
+not a recovered original. The [earlier editorial task](REVIEW.md#manifesto-editorial-task)
+records that synthesis's original review; the
+[consolidation task](REVIEW.md#readme-consolidation-task) records the later edit.
+README now owns both principles and [the working practices](README.md#working-practices),
+including the four operational primitives formerly held in the separate guide.
 
 ### Later evidence inspected
 
-This task began at destination `e6987dc8646c1f84302b806a39a0c34730ad035d` and
-verified the authorized source's actual clean main at
+The earlier editorial task began at destination
+`e6987dc8646c1f84302b806a39a0c34730ad035d` and verified the authorized source's clean main at
 `a055a965d19cf7cdd1760bf03c46b5eed78a7f5f`. The initial manifest above stays bound
-to its original snapshot. The current synthesis additionally reads the following
+to its original snapshot. That synthesis additionally read the following
 records at this later source boundary; paths are source-relative, not local links
 or standing access grants.
 
@@ -113,12 +122,12 @@ or standing access grants.
 Source run **007-0062** remains historical provenance for the initial Indelegible
 extraction. The source ledger's retained 007-0061 entry identifies 007-0062 as its
 recorder; no 007-0062 row is inferred or created here. Any source-ledger
-reconciliation remains separately scoped libyears work. Source state is read-only.
+reconciliation remains separately scoped libyears work. That inspection was read-only.
 
-The recent conversational continuity failure is human-supplied task context,
-separate from repository-recorded recovery evidence. This task neither audits
-that conversation nor infers its cause. No attention, billing, model-comparison
-or prompt-size measurements were manufactured for this revision.
+The conversational continuity failure supplied for the earlier editorial task is
+human-supplied context, separate from repository-recorded recovery evidence. That
+task did not audit the conversation or infer its cause. No attention, billing,
+model-comparison or prompt-size measurements were manufactured for either revision.
 
 ## Licensing
 

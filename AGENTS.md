@@ -4,10 +4,12 @@ This repository owns its applicable instructions. Libyears is evidence, not a
 governing dependency. The human commissioning task grants work; these files do not
 grant a new task, external access, execution or publication on their own.
 
-[GUIDE.md](GUIDE.md) owns lifecycle, actors and review mechanics.
-[STARTER.md](STARTER.md) owns recovery questions. A task record owns its bounded
-grant and acceptance criteria. Read historical records with their current
-disposition. Stop on contradictory authority or a consequential missing decision.
+[README.md](README.md#working-practices) owns lifecycle, actors and review mechanics;
+[its recovery section](README.md#return-and-transfer) owns current recovery guidance.
+[STARTER.md](STARTER.md) is the unchanged portable handout and synthetic witness
+input. A task record owns its bounded grant and acceptance criteria. Read historical
+records with their current disposition. Stop on contradictory authority or a
+consequential missing decision.
 
 ## Preserve work and scope
 

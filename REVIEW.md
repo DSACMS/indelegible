@@ -127,3 +127,72 @@ Documentation required no installation, build or product-suite execution. This
 revision supplies no new empirical evidence of harness effectiveness. Local
 completion is the commit introducing this section, bound exactly in the local
 completion record; no push or publication is performed.
+
+## README consolidation task
+
+The human selects one coherent README for understanding and using Indelegible,
+including the principles and operating guidance previously split across two files,
+and explicitly authorizes their removal. Scope: edit README, migrate live references,
+retain the standalone recovery handout only if justified, preserve original/frozen
+and historical evidence, one fresh independent review, focused corrections/checks
+and one coherent local commit. No libyears access, network, installation, external
+target, new experiment, runtime/Skill/plugin, license choice or publication.
+
+Starting main/HEAD is `85183e3c88bf0d281c6a5f165e6903da0948411e`, verified clean
+with no staged, unstaged or untracked work. The author/orchestrator consolidates,
+checks and commits; one fresh non-author reviewer inspects actual before/after
+material. No runtime, credit or child-configuration telemetry is supplied or inferred.
+Noncanonical candidate, compact preservation checklist, review and check/completion
+records live in `indelegible/readme-consolidation/` beneath this checkout's resolved
+Git directory, verified excluded from Git's untracked enumeration. Local durability
+is not backup; no ledger or replacement policy document is introduced.
+
+README owns the current human-facing guidance. AGENTS retains repository-specific
+instructions and points to README practices/recovery. STARTER stays byte-identical:
+it is a portable recovery question handout and frozen participant input bound by
+`examples/recovery/freeze.json`. README explains that role. All examples, response,
+key, inventories, original historical note, source inventory and notices stay
+unchanged. MANIFESTO.md and GUIDE.md are intentionally removed; their prior versions
+remain at the starting revision above, with no redundant archive created.
+
+The preceding reviews retain their original bytes and describe their own candidates.
+Their old filenames and ownership statements are intentional historical references,
+not live instructions or approval of this consolidation. PROVENANCE supplies current
+navigation and an exact prior-revision pointer while retaining source inventory and
+historical attribution. It records no new source inspection for this task.
+
+### Consolidation review
+
+One fresh non-author reviewer returned **COMPLETE / APPROVE**, with no material
+findings or required corrections, against candidate manifest SHA-256
+`a2ae783ee942433472262024737c8d8df6363079a8df5f6642a7c4e9e451b954`.
+The manifest binds five current files and the two intentional deletions. Exact
+candidate bytes, original returned report and the author's before/after checklist
+are retained locally as `review-candidate/`, `review-candidate.json`,
+`review-original.txt` and `author-checklist.md`.
+
+The reviewer inspected actual before/after documents, complete change scope,
+retained provenance, recovery case/key/response/results and preservation records.
+They confirmed the reading order, substantive commitments, all four primitives,
+five task fields, authority and stopping boundaries, evidence limits, STARTER's
+justified role and intentional historical references. Independent checks verified
+all 19 other baseline files' bytes/modes/types, the unchanged prior review prefix,
+original and frozen-evidence digests, 35 candidate links/anchors, whitespace and
+local exclusion. The author's 63-link check additionally covers unchanged documents.
+No finding was rejected or corrected. The author accepts the scoped approval;
+only REVIEW and RESTART receive post-freeze disposition/closure updates.
+
+This is one logical fresh reviewer context requested without model/effort overrides;
+shared filesystem access supplies no enforced isolation, and actual child
+configuration/resources are unobserved. The reviewer did not rerun GitLeaks,
+reproduce historical executions, authenticate capture chronology or inspect private
+operational evidence. No libyears or network access, build, product execution or
+reviewer fan-out occurred. No new study or effectiveness claim follows.
+
+Author checks verify local links/anchors, live-reference migration, unchanged
+historical original and frozen evidence, preserved source manifest/notices/prior
+reviews, privacy, scope, whitespace and current-content GitLeaks 8.30.1 with default
+rules. Complete explicit-path staging includes the two deletions; staged-diff and
+final committed-history results are retained in local check/completion records.
+The commit introducing this task record is the local completion boundary, bound
+exactly in the local completion record. No publication or further task is granted.
