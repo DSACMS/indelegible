@@ -312,7 +312,8 @@ The **Security and Responsible Disclosure Policy** is [SECURITY.md](SECURITY.md)
 Contribution terms, required AI disclosure and branching are in
 [CONTRIBUTING.md](CONTRIBUTING.md); no optional DCO, release, website or package
 machinery is selected. Governance and Feedback use CMS OSPO and the public issue
-tracker described in COMMUNITY. Required institutional review remains separate.
+tracker described in COMMUNITY. The [current outbound route](REVIEW.md#human-outbound-review-packet)
+records the sole qualified-human review and OSPO approval selected for this candidate.
 
 **Software Bill of Materials:** no product dependency inventory is asserted.
 Validation-only dependencies are pinned in `tools/validation/package-lock.json`;
@@ -343,7 +344,9 @@ this records permission without inventing sole authorship or a signed instrument
 [CONTRIBUTING.md](CONTRIBUTING.md#public-domain). Standard-policy sources, versions
 and material adaptations are recorded in PROVENANCE.
 
-[The current outbound preparation](REVIEW.md#tier2-local-preparation)
-records the local history integration, Tier2 requirement map and proposed checklist
-corrections. It is preparation for review, not institutional clearance or permission
-to publish.
+[The current human review packet](REVIEW.md#human-outbound-review-packet) records
+the Authority's lowest-risk route: the commissioning human is the sole qualified
+engineer reviewer and OSPO approver. Their completed disposition remains pending.
+After their approval, they publish and perform administrator/hosted follow-through.
+Earlier routing interpretations remain historical; the upstream checklist changes
+remain proposed.

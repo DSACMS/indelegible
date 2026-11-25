@@ -10,7 +10,7 @@ scope is unclear; sensitive reports use [SECURITY.md](SECURITY.md).
 
 Use the README as the main guide. Choose one real input and useful result, identify
 the grant and stopping boundary, and inspect actual working state. The current
-[publication handoff](RESTART.md) identifies remaining institutional prerequisites;
+[publication handoff](RESTART.md) identifies the selected human review route;
 a pull request is not approval to publish or change repository settings.
 
 ### Team Specific Guidelines
@@ -86,14 +86,17 @@ limits and any missing approval. Disclose AI assistance. The
 ### Reviewing Pull Requests
 
 Use [proportionate review and correction](README.md#review-and-correct-proportionately).
-Agent review does not satisfy the institutional qualified-engineer requirement.
-No self-approval or old waiver may substitute for required independent evidence.
+Agent review does not replace completed qualified-human review or OSPO approval.
+Follow the [recorded risk-based route](REVIEW.md#human-outbound-review-packet): for
+this candidate, the commissioning human is the sole qualified engineer reviewer
+and OSPO approver. Do not infer completion from their authority or route selection.
 
 ## Shipping Releases
 
-No versioned package, release schedule or deployment is selected. Publishing
-repository content requires the finite prerequisites and separate grant in
-[RESTART.md](RESTART.md); this file grants no push, tag or release.
+No versioned package, release schedule or deployment is selected. For this candidate,
+the commissioning human publishes after their sole qualified review/OSPO approval,
+then performs the [post-push follow-through](RESTART.md). This file grants no agent
+push, tag or release.
 
 ## Documentation
 

@@ -26,4 +26,4 @@ CMS OSPO owns triage and maintenance. The proposed hosted security workflow chec
 pushes, pull requests and a weekly schedule; locally run the security checks before
 publication. Hosted execution remains unverified until content is uploaded and
 Actions runs. Current local and institutional review status is in
-[REVIEW.md](REVIEW.md#tier2-local-preparation).
+[current human review packet](REVIEW.md#human-outbound-review-packet).

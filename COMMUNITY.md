@@ -5,17 +5,20 @@
 | Role | Name or accountable office | Affiliation / contact |
 | --- | --- | --- |
 | Project owner and internal maintainer | CMS OSPO | CMS/OHTP/OSPG; opensource@cms.hhs.gov |
-| Tier2 Authority | Commissioning human, self-confirmed for this task | Decision provenance in [REVIEW.md](REVIEW.md#tier2-local-preparation) |
+| Tier2 Authority, qualified human reviewer, OSPO approver and repository admin | Commissioning human, explicitly self-confirmed for this candidate | Current [risk/review disposition](REVIEW.md#human-outbound-review-packet) |
 
-These office-level assignments are human-supplied. No named GitHub code owner,
-individual reviewer, charter or signature is invented.
+These assignments are human-supplied. No personal name, GitHub code-owner handle,
+charter, signature or completed review is invented.
 
 ## Roles & Responsibilities
 
 CMS OSPO maintains the guidance, triages issues and validation findings, and routes
 contributions and policy questions through the standard open-source contact above.
-The Tier2 Authority owns the outbound decision; required qualified independent
-reviewers remain to be recorded. The [README actor table](README.md#attribute-actions-and-authority)
+The Tier2 Authority selects the applicable outbound route. For this lowest-risk
+candidate, one qualified human review and OSPO approval suffice; the commissioning
+human performs both and their completed disposition is awaited. They publish after
+review and perform admin actions after push. No additional reviewer or institutional
+approver is required. The [README actor table](README.md#attribute-actions-and-authority)
 owns the distinctions between authoring, approval, execution and review.
 
 ## Principles

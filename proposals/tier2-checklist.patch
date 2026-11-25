@@ -1,6 +1,6 @@
 --- a/tier2/checklist.md
 +++ b/tier2/checklist.md
-@@ -3,6 +3,38 @@
+@@ -3,6 +3,40 @@
  ## Tier 2: Close Collaboration
 
  This is a review process to approve CMS-developed software to be released open source at [github.cms.gov](https://github.cms.gov/). If you would like your repository to be released, please complete the following steps.
@@ -18,13 +18,15 @@
 +when its exact scope and outcome are referenced, without counting it as independent
 +checks. A linter pass does not establish institutional approval.
 +
-+Separate repository existence/visibility, local preparation, administrative
-+controls, content publication and hosted execution. Verify available required
-+controls before publication; identify any bootstrap prerequisite and obtain its
-+specific disposition. Do not require uploaded-candidate jobs to pass before their
-+first authorized upload. Observe those jobs afterward on the exact revision and
-+keep closure pending until required evidence exists. Protect actual approved
-+branches; examples do not require creating dev, releases, websites or packages.
++Separate repository setup, local preparation, authorized upload, post-upload
++administration and hosted evidence. The responsible authority records the actual
++bootstrap sequence for the selected risk route, including which controls precede
++or follow upload. Do not require an unuploaded workflow's successful run. For
++Indelegible, the recorded sequence is completed sole human review/OSPO approval,
++human fast-forward push, then human-admin controls and exact-candidate hosted
++observation, followed by subsequent enforcement. An actual server rejection stops
++publication; no bypass or protection disablement is authorized. Protect the actual
++approved branches; examples do not require dev, releases, websites or packages.
 +
 +Before publication, scan proposed current content and then, after the final commit,
 +all required available non-shallow committed history. Record scanner version,
@@ -39,19 +41,61 @@
 
  [Prerequisites](#prerequisites)
 
-@@ -112,6 +144,11 @@
+@@ -111,17 +145,42 @@
+
  ### Code Review
 
- The existing codebase should be given a one time, top-to-bottom code quality and security vulnerability review by two (or more) engineers who have written production code within the past two years, in the languages used in the project. Engineers should review credential management practices with the development team to ensure that any keys, passwords, or other sensitive configurations are not checked into source code or in the git history.
+-The existing codebase should be given a one time, top-to-bottom code quality and security vulnerability review by two (or more) engineers who have written production code within the past two years, in the languages used in the project. Engineers should review credential management practices with the development team to ensure that any keys, passwords, or other sensitive configurations are not checked into source code or in the git history.
+-
+-The engineers can be federal government employees or trusted partners from outside the agency from other contracts, or from independent testing contracts. Their names, organizations, comments and approval/disapproval on the overall codebase should be tracked in this document.
+-
+-To provide independent review, the engineers should not have been involved in the development of the software product. This includes engineers who wrote part of the software or who directly provided technical direction and oversight in the creation of the software.
+-
+-As part of the code review, engineers should reference modern listings of the most significant software security vulnerabilities. For instance, an acceptable description would be that the engineers showed how they used automated tools and manual review to check each item in [OWASP's current 10 Most Critical Web Application Security Risks](https://owasp.org/www-project-top-ten/).
+-
+-#### Results
+-
+-_Insert Review Here_
++The responsible Tier authority selects and records the applicable review and
++approval route from the project's actual scope and publication risk. Record the
++authority, rationale, candidate/history, reviewer qualifications, reviewer count,
++any independence expectations, approval roles, bootstrap sequence and outstanding
++dispositions. Selecting a route is not completing its review or approvals. No
++universal score or numerical risk threshold is introduced. Reassess the route if
++scope or risk materially changes.
 +
-+Record each required reviewer's identity, organization, qualifications,
-+independence, candidate, scope, findings and verdict. Agent review does not replace
-+this qualified-engineer gate. Any authorized exception needs its own authority,
-+scope, rationale and evidence; another project's reported waiver does not transfer.
++**Recorded Indelegible route (candidate-specific human disposition):** the
++commissioning human states they are the qualified engineer reviewer, Tier2
++Authority, OSPO approver and repository administrator. They assess this bounded
++documentation/validation harness as the lowest publication risk, with no CMS
++system integration and no PII/PHI. They select one qualified human engineer review
++(their review) and OSPO approval, with no additional engineer or institutional
++approver required. Their completed review/OSPO disposition is still awaited;
++publication and post-push administrator actions have not occurred. This is the
++recorded Indelegible decision, not a claim that generalized wording has already
++been adopted as institutional policy.
++
++More extensive routes remain available for other risk profiles, including two or
++more independent engineers who wrote production code within the past two years
++in the languages used, uninvolved in writing or technically directing the work,
++and additional institutional approval roles where the recorded route requires
++them. These are not additional prerequisites for Indelegible's selected route.
++
++Review the whole intended published codebase/history for quality, security,
++privacy and credential management. Use an appropriate current significant-
++vulnerability reference and make manual/tool coverage explicit. Record the actual
++human reviewer's identity, qualifications, candidate, scope, comments, findings,
++approval/disapproval and date; do not fabricate these results from appointment or
++authority. Agent review supports preparation and does not impersonate the human
++reviewer or supply the final qualified-human approval.
++
++#### Results
++
++_Record the selected route and actual completed review disposition here._
 
- The engineers can be federal government employees or trusted partners from outside the agency from other contracts, or from independent testing contracts. Their names, organizations, comments and approval/disapproval on the overall codebase should be tracked in this document.
+ ### Code Analysis
 
-@@ -167,11 +204,14 @@
+@@ -167,11 +226,14 @@
 
  Review the history of commits to the version control system used, and whether the team prefers to clean (e.g., rebase) this history before releasing to the public.
 
@@ -67,7 +111,7 @@
 
  Consider using the following tools to perform the tasks above:
 
-@@ -189,34 +229,22 @@
+@@ -189,34 +251,22 @@
 
  As part of our repository hygiene requirements, the project must include certain files and sections. Using repolinter will help you identify missing files and content that will need to be added to your repository before outbounding.
 
@@ -118,7 +162,7 @@
 
  #### Review Content
 
-@@ -333,22 +361,16 @@
+@@ -333,22 +383,16 @@
 
  The [automated-codejson-generator](https://github.com/DSACMS/automated-codejson-generator) is a GitHub Action that automatically generates and maintains code.json files for federal open source repositories. It ensures schema consistency and automates various metadata calculations.
 
@@ -151,7 +195,34 @@
 
  As you continue development in this repository, it is important to keep this file up-to-date. Our [automated-codejson-generator](https://github.com/DSACMS/automated-codejson-generator) can assist with updating this file.
 
-@@ -432,7 +454,11 @@
+@@ -417,22 +461,26 @@
+   - [ ] Regulations of the Transportation Security Administration related to the protection of sensitive information.
+   - [ ] Federal laws and regulations governing the sharing of classified information.
+
+-If all boxes have been checked, please proceed to the **Flipping the Switch** section below this one, otherwise, this section must be filled out and approved by the indicated stakeholders before public release.
+-
+-After reviewing the materials prepared by the team that is working to open source the product, the business owner signs off on a risk acceptance for open-sourcing the software product.
+-
+-Requesting sign off from key people on this request.
+-
+-| Reviewer Organization            | Reviewer Names                                            | Reviewer’s Recommendation                                                               |
+-| -------------------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+-| Code Reviewer 's Reccommendation | CODE REVIEWER 1 <br> CODE REVIEWER 2 <br> CODE REVIEWER 3 | [Approved/Needs Approval] <br> [Approved/Needs Approval] <br> [Approved/Needs Approval] |
+-| ISSO                             | ISSO REVIEWER                                             | [Approved/Needs Approval]                                                               |
+-| ISG Technical Approval           | ISG REVIEWER                                              | [Approved/Needs Approval]                                                               |
+-| Business Owner(s)                | BUSINESS OWNER 1 </n> BUSINESS OWNER 2                    | [Approved/Needs Approval] </n> [Approved/Needs Approval]                                |
++Record the applicable risk questions, actual findings and dispositions under
++the selected route; do not prefill declarations or infer approvals. Only the
++approval roles named by that route are required. For the recorded Indelegible
++lowest-risk route, OSPO is the sole approval authority and the commissioning human
++is its approver; no ISSO, ISG, separate business-owner or other institutional sign-off
++is an additional prerequisite. More extensive routing remains available for
++other profiles. Material scope/risk changes require reassessment.
++
++| Applicable role | Responsible person / authority | Actual disposition |
++| --- | --- | --- |
++| Indelegible qualified human engineer and OSPO approver | Commissioning human, as explicitly recorded | Awaiting completed exact-candidate review/OSPO disposition; do not prefill approval. |
++| Additional reviewers/approval roles for other risk profiles | Only those named in their recorded route | Record actual findings/verdicts there; not required for Indelegible's selected route. |
 
  ### Flipping the Switch: Making the Repository Public
 
@@ -164,7 +235,7 @@
 
  #### Repository Actions
 
-@@ -449,14 +475,14 @@
+@@ -449,14 +497,14 @@
 
  - [ ] **Branch Protections**
 
@@ -174,7 +245,7 @@
  - [ ] **Git Branching**
 
 -  _After making the repository public, make sure there is a coherent git branching plan in place. For example: agree to merge feature related pull requests into dev but merge bug fixes into main instead of dev first._
-+  _Before publishing content, agree on the actual branch and merge workflow, required controls and permitted bootstrap path. Resolve any initial publication exception explicitly rather than deferring the branch plan until after publication._
++  _Record the actual branch/merge workflow and bootstrap sequence under the selected risk route before upload. Distinguish controls that precede upload from authorized post-upload administration. Indelegible's human performs the initial fast-forward push after their review, then admin controls and hosted follow-through; do not impose circular pre-upload check requirements or bypass actual server rules._
 
  - [ ] **Add Repolinter GH Action to CI**
 

@@ -1,5 +1,9 @@
 # Initial-slice review
 
+Current outbound authority and remaining action are in the
+[human review packet](#human-outbound-review-packet). Earlier maps, approval-route
+interpretations and pending language below are historical where superseded there.
+
 The human authorizes the first repository slice, one synthetic recovery witness,
 a distinct fresh evaluation, focused instruction review and local commits. The
 author prepares the candidate; the recovery participant only reads and reports.
@@ -199,6 +203,9 @@ exactly in the local completion record. No publication or further task is grante
 
 ## Integration and Tier2 preparation
 
+Historical preparation record. Its routing interpretation is superseded by the
+[current candidate-specific human decision](#human-outbound-review-packet).
+
 The human authorizes exact origin configuration, main-only fetch without tags or
 submodules, a normal unrelated-history merge, current license-status corrections,
 bounded read-only libyears methodology inspection, a concrete outbound assessment,
@@ -283,6 +290,9 @@ fix. No new experiment is needed to use these lessons.
 
 ### Requirement map
 
+Historical dispositions at the integration boundary; use the
+[current route/status table](#current-route-and-review-disposition) for this candidate.
+
 Phases: **L** local preparation/check; **H** institutional/human disposition before
 publication; **R** repository configuration when the repository exists; **P**
 explicit publication action; **A** evidence after content/workflows are uploaded.
@@ -313,6 +323,10 @@ non-applicability must be recorded by their owner. Libyears' waivers, secret-sca
 exceptions, contribution terms and person-specific attestations are not imported.
 
 ### Exact proposed checklist corrections
+
+Historical T1–T10 proposal register. The current patch supersedes the earlier T2/T9
+wording with the [recorded risk-based route](#human-outbound-review-packet); it remains
+proposed upstream, while the human's Indelegible disposition is adopted locally.
 
 The following are **proposals to the owning Tier2/checklist process**, not edits
 to upstream or adopted institutional policy. Routine local license wording and
@@ -374,6 +388,9 @@ local completion records after the documentation commit. No push, policy adoptio
 settings change or further task follows from local approval.
 
 ## Tier2 local preparation
+
+Historical preparation record. Earlier multi-reviewer, extra-approver and pre-push
+admin prerequisites are superseded by the [current human route](#human-outbound-review-packet).
 
 The commissioning human confirms they are the Tier2 Authority, authorizes CC0
 distribution of the supplied historical note, and directs inheritance of applicable
@@ -565,7 +582,11 @@ complete subject to those closure gates; publication remains blocked by the fini
 human/configuration requirements above. Agent approval is not institutional
 qualified-engineer review, dependency-risk acceptance or permission to publish.
 
-## Human outbound review packet
+## Superseded human outbound review packet
+
+This is the packet at `624d67afda75d36bd610da4323aab548850cf8b8`, retained as
+historical evidence. Its appointments, institutional routing and pre-push controls
+are not active blockers. Use the [current packet](#human-outbound-review-packet).
 
 The commissioning Tier2 Authority, having heard the retained dependency findings,
 directs continued preparation with the current validation chain. This is authority
@@ -731,3 +752,129 @@ and both blocked publication paths; all 43 other files matched. The original rep
 is retained. Only this closure disposition follows that freeze; new scoped checks,
 final history/ref evidence and exact hash substitution complete local closure.
 No institutional review, control change or hosted execution is inferred.
+
+## Human outbound review packet
+
+### Current route and review disposition
+
+The commissioning human explicitly identifies themselves as the qualified engineer
+reviewer, Tier2 Authority, OSPO approver and repository administrator for this
+candidate. Their risk assessment is **lowest publication risk**: no CMS system
+integration, no PII/PHI, and the bounded documentation/validation-tool scope already
+described in [README](README.md#about-the-project). This is an attributed human
+assessment, not an agent-derived universal risk score or a claim of zero defects.
+
+They select **one qualified human engineer review—their own—and OSPO approval**.
+No additional engineer reviewer or institutional approver is required. This
+supersedes earlier two-engineer/independence and ISSO/ISG/business-owner/TRB/OGC
+routing interpretations for this candidate. It does not assert that the human's
+review or OSPO disposition has already been completed. A material scope/risk
+change requires reassessment; the selected route is not a blanket future waiver.
+
+| Item | Applicable actor and actual status |
+| --- | --- |
+| Review route | Selected by the commissioning Tier2 Authority: sole qualified human engineer reviewer is that human. No appointments or extra qualification/authority confirmations remain to obtain. |
+| OSPO approval | The same human is the applicable OSPO approver; no additional institutional routing is required. Completed exact-candidate disposition is awaited. |
+| Human review | Awaiting their actual review, comments/findings and approval or disapproval, including the retained toolchain findings. Agent preparation/review cannot supply this result. |
+| Publication | The human will perform the normal fast-forward push after their review/approval. No agent push or additional approval layer is introduced. |
+| Repository controls | Human-admin actions after push, as explicitly selected. Earlier pre-push admin gates are superseded. Actual server rejections still stop the command; no protection bypass is authorized. |
+| Hosted evidence | Observe after upload on the actual candidate; no unuploaded workflow result is a pre-push prerequisite. No hosted pass is claimed. |
+
+CC0, original-distribution authorization and all supplied metadata decisions remain
+settled with their [original attribution](#tier2-local-preparation). The existing
+validation chain and recorded use-path triage remain selected; no audit refresh,
+remediation, suppression, replacement or separate security approver is introduced.
+The earlier repo-baseline/repo-upgrader possibility remains deferred without access.
+
+### Exact candidate and review material
+
+This task starts at clean main `624d67afda75d36bd610da4323aab548850cf8b8`.
+Changes are the current route/status/navigation, the existing publication handoff
+and the [proposed checklist patch](proposals/tier2-checklist.patch); no validation
+implementation, source policy, metadata, license or frozen witness changes.
+
+The existing `indelegible/tier2-local/publication-handoff.md` under the resolved
+Git directory names the final full commit/tree, observed remote base and exact
+first-publication range. It is rebound after the local commit to avoid a
+self-referential hash in tracked prose. Review **all ancestors** of that commit,
+preserving both original roots and their merge, not just this last documentation
+diff. The base remains `684c91de745880d385cc3a77bc76670d8fd435d7` if final ref
+verification agrees. Prior handoffs remain historical copies; only the updated
+handoff is active. Excluded evidence is local continuity, not backup or public
+approval storage.
+
+Read README for purpose/practices, [PROVENANCE](PROVENANCE.md#standard-policy-adaptation)
+for exact policy/source revisions, and the [retained validation/triage](#validation-results-and-finding-disposition).
+The upstream proposal still targets repo-scaffolder
+`172e445ce022d98d06b457ca03a0a5cb8e4b1dad`, `tier2/checklist.md`, byte-identical
+to the retained `14e2a01482084da7bc1a5aac825e2f1ea23e8529` baseline. It proposes
+risk-selected review counts, approval roles and bootstrap phases, with Indelegible's
+recorded one-human/OSPO route explicit. More extensive routes remain available for
+other profiles. Both the full applied checklist and residual instructions are
+checked; the proposal does not amend upstream policy. The human's candidate-specific
+Indelegible disposition is adopted authority, distinct from that general proposal.
+
+| Evidence category | Retained result / final-candidate binding |
+| --- | --- |
+| Required file/section presence | Updated file/section run: zero required errors, eight optional warnings and two unavailable optional axioms; retained in risk-route/presence.txt. |
+| Metadata/schema/facts and workflows | Prior passing results reused against unchanged code.json/schema/tool/config/workflow hashes. Parsing/compliance/facts remain separate from actual approval/execution. |
+| Source analysis | Zero errors and **six warnings**, with original filesystem-path triage. Unchanged code/analysis configuration; no rerun or suppression needed. |
+| Dependency audit | **12 package advisory entries: two critical, four high, six moderate**. Original audit/lock binding and use-path triage retained, not refreshed or described as fixed, harmless or separately security-accepted. |
+| New prose/proposal/security checks | Local links, complete patch application/residual review, staged whitespace/scope, historical/frozen preservation, current content and final non-shallow committed history are bound in local risk-route closure evidence. |
+| Agent versus human/hosted | Focused non-author agent review checks this edit/procedure only. Sole qualified-human disposition, human push/admin actions and uploaded-candidate hosted results remain unexecuted. |
+
+Raw retained paths remain relative to `indelegible/tier2-local/`: original
+`dependency-audit-final.json`, `dependency-audit-summary.json`,
+`checks-candidate/source-security.txt` and `checks-prepared/presence.txt`.
+The new `risk-route/` records bind reused scopes, updated presence/navigation,
+complete applied proposal, original agent findings and final commit/ref/history.
+No ledger or unavailable telemetry is added.
+
+### Human action and post-push follow-through
+
+The remaining pre-publication action is **the commissioning human's completed
+qualified-engineer review and OSPO disposition**. Record the exact candidate,
+actual review scope/date, comments/findings and approval or disapproval, explicitly
+disposing of the retained 12 advisories, six source warnings and eight optional
+presence warnings. Existing authority/qualification is recorded, not requested
+again. No approval text, signature or completed audit is prefilled.
+
+After their approval, the human may use the exact normal fast-forward block in the
+updated handoff. It pins root/main/clean state/HEAD/destination/remote base and
+ancestry, stops on failures/changed boundaries, and verifies the actual pushed ref.
+No force, tag following, submodule recursion or automatic bypass is used. The agent
+does not execute it. A technical rejection is a stop to inspect/report, not an
+instruction to disable controls or add an unsupported approval gate.
+
+After push, the human as admin:
+
+1. Records actual Actions/allowed-action/read-only-token and security-alert settings;
+   resolves execution restrictions through their existing admin access. Earlier
+   unauthenticated omissions/401s leave those settings unknown.
+2. Observes hygiene/security runs on the published SHA, retaining actual URLs,
+   conclusions and logs, including GitLeaks version/config/available refs. Missing,
+   skipped or failed jobs remain missing/skipped/failed. Local Node26 and prepared
+   hosted Node24 are not asserted equivalent; weekly execution remains unobserved.
+3. Applies main protection against force/deletion and the selected subsequent
+   review/check controls using actual observed job contexts; verifies effective
+   enforcement. The approved bootstrap places these actions after initial upload.
+4. Sets description/topics from README/code.json as appropriate. No new website,
+   package, deployment, release, announcement or inventory submission is authorized
+   here. Any material scope/risk change reopens route selection.
+
+### Risk-route local closure
+
+Local checks/review and final commit/ref evidence use the existing excluded storage
+at `indelegible/tier2-local/risk-route/`, with previous handoffs preserved. The agent
+stops at the human's actual review and publication action; it does not invent that
+review, OSPO approval, control execution or hosted result.
+
+Fresh non-author review returned **Completed / APPROVE**, no material finding,
+against 45-file manifest SHA-256
+`5278aae0fde81d0108c60847b11af81152343181c9b794004562ed11923938fa`.
+It covered the eight-file delta, historical preservation, full applied checklist
+and publication template; independent application reproduced all seven hunks.
+The original report is retained. Only closure/result prose follows that freeze;
+unchanged presence/navigation/source/metadata scopes are reused. Final staged
+content/whitespace and committed-history/ref gates bind local completion. This
+agent verdict does not supply the sole human review or OSPO approval.

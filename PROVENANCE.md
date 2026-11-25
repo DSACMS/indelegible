@@ -193,7 +193,14 @@ with human-supplied office ownership instead of invented individual rosters.
 The applicable [CMS Open Source Policy](https://github.com/CMSGov/cms-open-source-policy/blob/f4b95dfeaf823c7f28df7b3db89d75c6ce86dc30/Policy.md)
 is pinned to `f4b95dfeaf823c7f28df7b3db89d75c6ce86dc30`. Its institutional review
 and risk requirements are not represented as completed merely because the human
-is Tier2 Authority. The [official CMS vulnerability policy](https://www.cms.gov/about-cms/information-systems/privacy/vulnerability-disclosure-policy)
+is Tier2 Authority. The later [candidate-specific human disposition](REVIEW.md#human-outbound-review-packet)
+selects the applicable route: one qualified human engineer review and OSPO approval,
+without additional institutional approvers. The commissioning human explicitly
+holds these roles and performs administrator actions after push. Earlier proposed
+ISSO/ISG/business-owner/TRB/OGC routing is superseded for this candidate; no final
+review, signature, publication or admin execution is inferred. This is attributed
+Indelegible authority, not an amendment to the external CMS policy. The
+[official CMS vulnerability policy](https://www.cms.gov/about-cms/information-systems/privacy/vulnerability-disclosure-policy)
 was inspected and confirms the template's CMS Bugcrowd channel and three-business-day
 acknowledgement. The linked HHS policy describes a different HHS portal; it is not
 silently substituted for CMS reporting. Neither source nor this repository grants
