@@ -196,3 +196,179 @@ rules. Complete explicit-path staging includes the two deletions; staged-diff an
 final committed-history results are retained in local check/completion records.
 The commit introducing this task record is the local completion boundary, bound
 exactly in the local completion record. No publication or further task is granted.
+
+## Integration and Tier2 preparation
+
+The human authorizes exact origin configuration, main-only fetch without tags or
+submodules, a normal unrelated-history merge, current license-status corrections,
+bounded read-only libyears methodology inspection, a concrete outbound assessment,
+one focused fresh independent review, checks and local commits. Stop before
+publication or adopting unresolved policy changes. No package install, external
+target, broad product run, workflow trigger, repository setting change, credential
+or unrelated configuration discovery, new experiment or source edit is authorized.
+
+The author/orchestrator verified clean main at
+`538a845ac24cd8ccb4ff3e588ea76beebeec0049`, no remotes and no unrelated work.
+The prior read-only inspection's original public metadata/commit/LICENSE captures
+were recovered and retained, not reconstructed from conversation. Actual remote
+HEAD/main again matched `684c91de745880d385cc3a77bc76670d8fd435d7` before integration.
+Origin was configured to `https://github.com/DSACMS/indelegible.git` and only main
+was fetched, without tags or submodules. Fetched root parents were empty and its
+only file was LICENSE; its blob and bytes matched the original inspection.
+
+Normal merge `a8e39c0b5c88bd4c07ca758ccc822ca849283708` has parents
+`538a845ac24cd8ccb4ff3e588ea76beebeec0049` and
+`684c91de745880d385cc3a77bc76670d8fd435d7`. Both tips are verified ancestors;
+the original local root `e6987dc8646c1f84302b806a39a0c34730ad035d` and remote root
+survive. The merge changed only LICENSE, with no conflicts or discarded content.
+CC0-1.0 is selected; only the historical original's rightsholder/distribution
+permission remains factually unresolved, as [provenance](PROVENANCE.md#licensing)
+now specifies. All earlier reviews remain historical and unchanged.
+
+Durable noncanonical evidence is in `indelegible/outbound-preparation/` beneath
+this checkout's resolved Git directory, verified excluded from Git's untracked
+enumeration. It holds prior inspection copies, fetched/merge evidence, source
+bindings, frozen candidate, original independent report and check/completion records.
+It contains no credentials/trust inputs, imports no observation schema and is not
+a backup. No runtime, credit or child-configuration telemetry is invented.
+
+### Tier2 source register
+
+All following paths are relative to read-only libyears at
+`a055a965d19cf7cdd1760bf03c46b5eed78a7f5f`. These identifiers locate evidence,
+not a new institutional checklist or access grant. Only the named Indelegible
+public repository was contacted; upstream policy currency is unverified.
+
+| Key | Actual retained source / owner and status |
+| --- | --- |
+| C | `checklist.md`, retained CMS OSPO Tier2 review format and local audit; records `DSACMS/repo-scaffolder` revision `14e2a01482084da7bc1a5aac825e2f1ea23e8529`, `tier2/checklist.md` and templates. Institutional applicability/current version needs the responsible Tier2 owner; this copy cannot certify current policy. |
+| O | `outbound-tasks.md`, libyears' remaining-action record. Many publication/settings statements retain initial-switch language; not a current Indelegible task list. |
+| P | `maintenance/pre-push-checks.md` and `SDD_WORKFLOW.md`, libyears' owned local/publication gate and actor policy. Applicable lessons require adaptation; product commands are not imported. |
+| W | `.github/workflows/repoHygieneCheck.yml`, `.github/workflows/gitleaks.yml`, `.github/workflows/ci.yml`, `repolinter.json`, `.github/.gitleaks.toml`, `tools/check_gitleaks.py`: actual owned configuration. Hygiene uses 63 resolved rules without `extends`, a read-only job and repolinter 0.12.0. Secret gate expects observed 8.30.1; action version remains floating. |
+| E | `maintenance/operational-smoke-006-0018.md` §C; `maintenance/gitleaks-exact-exceptions-006-0019.md`; `maintenance/gitleaks-exact-exceptions-006-0031-review.md`: original failures, explicit narrow exception decisions and focused closure. Historical pending language is superseded only by those later decisions. |
+| H | `specs/006-nuget-selected-evidence/methodology-retrospective.md` §Security/publication; `maintenance/observation-handoff-durability.md` §Hosted closure/publication actors; `maintenance/methodology-instruction-consolidation.md`: observed versus reported hosted evidence and subsequently adopted actor/continuation rules. |
+
+### Recovered lessons and their disposition
+
+C records a successful early local repolinter invocation as well as later
+could-not-run/DNS language; schema checks also have both failed-placeholder and
+later unavailable-schema accounts. These retained checkpoint statements are not
+a current pass/fail certificate. Exact current institutional policy and missing
+original human review/sign-off artifacts were not recovered. No failure narrative
+or missing conversation is reconstructed.
+
+Adopted in libyears: resolving inherited linter rules for the standalone CLI;
+read-only validation without first-run configuration overwrite or PAT/PR-writing
+machinery; recognized CODEOWNERS filename; separate presence, metadata-schema,
+secret, vulnerability and human-review claims. C explicitly leaves static code
+analysis and recurring scan ownership pending despite a secret-scan result.
+These are recorded distinctions, not authority to waive requirements here.
+
+E documents a restricted-range/current-tree versus full-history scan mismatch,
+then separately authorized exact historical synthetic exceptions. One rationale
+repeated scanner-triggering prose and created another committed finding; the
+pre-commit approval was superseded by REVISE and separate narrow human authority.
+The final local gate scans non-shallow committed history with actual configuration
+and checked version. This explains why no exceptions or triggering payloads are
+copied here, and why final history must be scanned after the final commit.
+
+H/P adopted separate preparation, human publication by default, exact-ref
+verification and subsequent hosted observation. One later hosted closure is
+explicitly human-reported; a separate retrospective records successful named
+Pages/Tier2 jobs after earlier pending observations. Neither establishes hosted
+success on this candidate or on today's libyears HEAD. Queue/capacity failure,
+actual candidate failure and unobserved execution stay distinct. An output-isolation
+cleanup reported in the retrospective remained a proposal there, not an implemented
+fix. No new experiment is needed to use these lessons.
+
+### Requirement map
+
+Phases: **L** local preparation/check; **H** institutional/human disposition before
+publication; **R** repository configuration when the repository exists; **P**
+explicit publication action; **A** evidence after content/workflows are uploaded.
+R is not automatically post-publication: which controls must precede content is
+an owner decision. No unchecked requirement below is silently waived.
+
+| Requirement | Source / owner | Applicable evidence or check | Actor | Phase | Current disposition |
+| --- | --- | --- | --- | --- | --- |
+| Tier suitability, benefits, risks, sensitive/regulatory questions | C prerequisites/questions/risk acceptance; institutional owner | Indelegible-specific scope and attestations; identify current checklist version and approval record | Human/Tier2 owner | H | Open; libyears' approvals/FISMA answers do not transfer. Benefits are design intentions, not demonstrated savings. |
+| Qualified independent review | C Code Review; institutional owner | Two or more qualified independent engineers per retained rule, or a specifically authorized exception with scope/evidence | Human review authority | H | Open; this task's one agent review is a local gate, not the institutional review or inherited waiver. Documentation-only adaptation needs explicit owner disposition. |
+| Automated analysis and recurring responsibility | C Code Analysis; security owner | Separate secret scan from vulnerability/privacy/manual review; document applicable surface, scan schedule, triage owner and justified non-applicability | Author prepares; human/security owner decides | L/H | Narrow local security checks apply; no runtime product exists. Formal analysis applicability and recurring owner/schedule remain open. |
+| License and rights | C Review Licensing; human/rightsholder | Root CC0 LICENSE, retained notice, exact historical-original permission | Author verifies; human/rightsholder supplies rights fact | L/H | Project CC0 selected and merged. Historical-original distribution permission unresolved; project choice is not reopened. |
+| History/privacy/credentials | C Review Commit History; P/E | Full available non-shallow history plus current-content scan; separately scoped manual history/privacy review | Author/scanner; qualified human owner | L/H | Local scans recorded at closure; no claim of full institutional history/PII review. No rewrite or exception authorized. |
+| Required files and meaningful content | C Review Repository Hygiene; institutional/repository owners | LICENSE/README exist. C also calls for code.json, COMMUNITY.md, CONTRIBUTING.md, SECURITY.md, CODE_OF_CONDUCT.md and repolinter.json; compare substantive sections and accepted mapping | Author inventories; owner accepts remediation/mapping | L/H | Listed additional files absent. No scaffolding fabricated; single-README reuse does not waive required-file rules. Contacts, missions, contribution/security policy need owner facts. |
+| Metadata validity and inventory | C Review Project Metadata / Tracking; metadata/inventory owner | code.json with actual project facts and pinned applicable CMS schema; distinguish parsing/schema/accuracy; observe counts only with authorized access | Author validates; human supplies facts; inventory owner records | L/H/A | Absent. Destination URL is known; public repo existence does not supply clone counts, classification, labor or ownership. No invented values or inherited `[0]`. |
+| Repository About and public services | C Review Repository Details; O | Description/topics and only selected website/releases/packages/deployments; actual service availability | Repository admin/maintainer | R/A | Public initialization verified; settings/services not inspected. No website, package or release is selected by this grant. |
+| Security controls and branch model | C Repository Actions; O | Applicable alerts, secret scanning, branch protections and approved actual branch workflow; verify enforcement separately | Repository admin + policy owner | R/H | Unverified, no changes authorized. Source's dev/main example does not select a dev branch here; bootstrap/required-check ordering needs owner disposition. |
+| Hosted automation | C hygiene/actions; W | Review workflow contents/permissions locally, then exact-candidate hygiene/security jobs and actual logs | Maintainer/admin prepares/enables; Actions executes; observer records | L/R/A | No workflows/repolinter config exist here. Source workflow parsing/passes do not count. No installs/triggers/configuration changes in this task. |
+| Publication authorization and execution | P/SDD actor policy; human | Exact reviewed commit set, remote/ref, preconditions, fast-forward and observed post-push ref | Human by default; agent only if explicitly delegated | H/P | Local integration permitted; push not granted. Public LICENSE initialization is not publication of local docs/history. |
+| Rollout and inventory follow-through | C Communications/Tracking; O | Approved announcement audience/content and inventory receipt, actual service links if selected | Human communications/inventory owners | H/P/A | Open, no messages sent. Optional DCO/contributor/changelog/metadata automation is not silently required or waived. |
+
+Not applicable to this candidate's implementation: libyears' NuGet worker tests,
+Python matrix, live PyPI smoke, dependency-age assertions, target/trust procedures,
+product SBOM URL, platform simulations and its observation ledger. There is no
+runtime, dependency set, release or deployment to validate here. This does not
+waive institutional document, security or metadata requirements; any formal
+non-applicability must be recorded by their owner. Libyears' waivers, secret-scan
+exceptions, contribution terms and person-specific attestations are not imported.
+
+### Exact proposed checklist corrections
+
+The following are **proposals to the owning Tier2/checklist process**, not edits
+to upstream or adopted institutional policy. Routine local license wording and
+navigation are corrected now. Each quoted replacement is complete proposed text;
+no displayed command is an instruction to execute it in this task.
+
+| ID / current requirement or ambiguity | Source and observed problem | Exact proposed wording | Consequential disposition needed |
+| --- | --- | --- | --- |
+| T1 — unversioned current-policy inference | C mixes a pinned template and links to mutable main; old outcomes cannot establish today's policy | “Record the checklist, template and schema revisions used, the review date, and the authority confirming applicability. Distinguish repository-recorded outcomes from inspected approval evidence. A retained copy does not certify current institutional policy.” | Tier2 owner confirms current applicable version and evidence standard. |
+| T2 — single public switch and wrong-phase prerequisites | C/O defer settings/Actions until public switch; Indelegible already exists publicly with only LICENSE. Hosted results need uploaded workflows/content | “Track repository existence/visibility, content publication, configuration and hosted execution separately. Verify available required controls before content publication; record any authorized bootstrap exception. Observe upload-dependent checks on the exact uploaded candidate afterward. Protect the branches selected by the approved workflow; do not create a dev branch merely to satisfy an example.” | Admin/policy owner identifies pre-publication controls and any bootstrap exception; no circular requirement for unuploaded candidate jobs. |
+| T3 — linter success treated as substantive clearance | C records presence success with missing axioms/placeholders; W has no metadata schema gate | “Report file/section presence, factual content review, metadata-schema validation, secret scanning, vulnerability analysis and human approval as separate results. Record skipped tools and findings. A pass in one category does not clear another.” | No standards lowered; security owner still decides a documentation-only analysis scope and recurring triage responsibility. |
+| T4 — ambiguous workflow location/output | C says github directory/manual trigger produces an issue; W actually logs a read-only job | “Install an approved workflow at .github/workflows/ and name its actual job. State whether results appear in job logs, an artifact or an issue. Verify triggers and minimum permissions from the owned workflow; do not assume issue/PR creation or require a PAT for read-only validation.” | Any new write permissions or automation remains separately approved. |
+| T5 — unsupported existing-repository generator procedure | C's code.json example uses a Unicode option dash and a generation directory absent from the project | “For an existing repository, edit or prepare code.json directly and validate against the approved schema. Use a generator only from a separately authorized checkout with verified ASCII command options, documented version and reviewed hooks. Do not run repository-creation hooks in an existing project or imply the generator is installed.” | No install/generator authority inferred; metadata owner supplies real facts/schema. No unverified replacement command is prescribed. |
+| T6 — metadata publication/count/schema conflation | C/O mix unavailable pre-public counts, a schema failure and deferred `[0]` acceptance | “Use the known destination URL when preparing metadata. Validate the actual document against the named applicable CMS schema and check factual accuracy separately. Record unavailable metrics only using schema-supported unknown values or an explicitly approved deferral; never invent counts or copy another project's contract/classification values. Separate inventory submission from document creation.” | Metadata authority resolves required unknown fields/deferral and inventory ownership. |
+| T7 — conditional detailed history checks; scan duplicated across categories | C introduces history checks under 'if not rebasing' and lists git filter-repo as analysis tooling | “Review the intended published history regardless of any proposed rewrite. Prefer preserving history; rewriting is a separately authorized remediation, not a scanner or default cleanup step. One identified scan may support several checklist items if its scope, version, configuration, refs, candidate and results are referenced rather than represented as multiple independent checks.” | Any rewrite or scanner exception needs separate authority; neither is proposed here. |
+| T8 — local/hosted secret-scan parity assumed | P/E/W document restricted-range mismatch, floating action version and a post-commit prose regression | “Scan current proposed content and, after the final commit, all required available committed history. Record non-shallow/ref scope, scanner version and actual configuration. Reconcile hosted resolution and any extra merge refs before claiming parity. Preserve failures; classify exact findings without repeating payloads. Exceptions require explicit narrow approval and retained controls.” | No libyears exception transfers; changes to an adopted gate require its owner. |
+| T9 — qualified review versus agent review or inherited waiver | C requires two independent engineers but records a project-specific reported waiver with missing original artifacts | “Name the required reviewers, independence/qualification basis, exact candidate, coverage, findings and disposition. Preserve reported-versus-inspected provenance. An agent review or another project's waiver does not satisfy this gate. Record any authorized exception's authority, scope, rationale and evidence location.” | Tier2 owner decides the qualified review/exception path for this documentation harness. |
+| T10 — repeated prose, optional automation and ambiguous DCO text | C repeats principles/policies in multiple files, duplicates Public Domain policy prose and mixes optional DCO with imperative text | “Give shared prose one canonical home and link exact sections from required artifacts. Keep specifically required files unless the responsible authority accepts an alternative mapping. State each automation and DCO item as required, optional or not applicable with its owner; do not convert examples or optional tools into mandatory implementation.” | Owner accepts any alternative file mapping and contribution/DCO policy; no local waiver is adopted. |
+
+### Integration/outbound independent review
+
+One fresh non-author reviewer returned **COMPLETE / APPROVE** for local integration
+and outbound assessment against five-file manifest SHA-256
+`912d3fd25d8f628821d4dc759f7d26adc4faf7a4935aad21fa14ab005f8e895c`.
+Institutional clearance and publication are outside that verdict. The unchanged
+original report is retained locally as `review-original.txt`.
+
+Original E1 was a low, nonblocking editorial finding: README's REVIEW link still
+called the earlier consolidation task current. Expected: accurate current
+navigation. The author accepted it and changed that one description to “task
+grants, findings and review dispositions.” The same non-author reviewer inspected
+the exact one-line delta and collateral bytes under focused manifest SHA-256
+`64bc5a716a56205643873e801a8920b05392146718c1e1a2d043aad91215b825`, returning
+**COMPLETE / APPROVE — E1 resolved**, no new finding. The original finding and
+focused report remain retained separately; no second full audit or reviewer is
+claimed. Only REVIEW/RESTART closure records change after focused verification.
+
+Independent coverage included five frozen bindings, all 18 source bindings, actual
+checklist/workflows/gate and named failure/correction/closure evidence, graph and
+merge parents/two roots/both-tip ancestry, exact LICENSE bytes, authorized origin,
+non-shallow history, 20 untouched baseline files/modes, prior REVIEW prefix and
+original/frozen evidence. All 36 candidate links/anchors and whitespace passed.
+The author's broader check covers 68 links including unchanged documents. No
+source policy was edited or old waiver imported; T1–T10 remain proposals.
+
+Fresh logical context was requested without model/effort overrides. Focused
+verification reused that non-author context with new artifact reads; no context
+reset or enforced filesystem isolation is claimed. Actual child resources and
+configuration remain unobserved. The reviewer inspected retained security results
+without rerunning GitLeaks, contacted no network, inspected no private operational
+handoffs and executed no product, installation or experiment.
+
+Author checks preserve historical bytes/notices, validate local navigation,
+privacy, scope, whitespace, ancestry and current-content security with GitLeaks
+8.30.1 bundled defaults. This is not parity with libyears' custom configuration,
+institutional review or hosted execution. Full explicit-path staged-diff evidence,
+final committed-history scan and actual remote-ref comparison will be bound in
+local completion records after the documentation commit. No push, policy adoption,
+settings change or further task follows from local approval.

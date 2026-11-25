@@ -129,15 +129,44 @@ human-supplied context, separate from repository-recorded recovery evidence. Tha
 task did not audit the conversation or infer its cause. No attention, billing,
 model-comparison or prompt-size measurements were manufactured for either revision.
 
+## Integration and outbound sources
+
+The human subsequently selected CC0-1.0 and created the public destination
+`https://github.com/DSACMS/indelegible.git`. The local merge
+`a8e39c0b5c88bd4c07ca758ccc822ca849283708` preserves local tip
+`538a845ac24cd8ccb4ff3e588ea76beebeec0049` and remote root
+`684c91de745880d385cc3a77bc76670d8fd435d7`, in that parent order. It added only
+LICENSE. Its fetched bytes match the prior public inspection: 7,048 bytes,
+SHA-256 `a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499`.
+Earlier reviews accurately recorded the license decision as unavailable then;
+their historical wording remains unchanged.
+
+The bounded Tier2 methodology inspection used libyears at clean revision
+`a055a965d19cf7cdd1760bf03c46b5eed78a7f5f`. The
+[source register, applicability map and proposed corrections](REVIEW.md#tier2-source-register)
+identify the retained checklist, outbound record, owned workflows/gate and relevant
+correction/closure evidence. No institutional site or upstream checklist was
+contacted or edited; this is not verification of today's institutional policy.
+The original source-file inventory remains bound to the initial extraction.
+
 ## Licensing
 
-The inspected upstream libyears LICENSE is **CC0 1.0 Universal**. Its unchanged
-notice is retained at [provenance/libyears-CC0.txt](provenance/libyears-CC0.txt)
-for copied source material. This records upstream licensing and does not silently
-select a project-wide license for new Indelegible writing. No destination license
-was pre-existing; the human has not selected one. No copyright ownership is invented.
+**CC0-1.0 is the selected Indelegible project license.** [LICENSE](LICENSE) is
+retained unchanged from the verified remote initialization. This human decision
+supersedes the earlier undecided status for new project writing; it does not
+backdate the license decision into historical reviews.
 
-The supplied historical manifesto has no established license; libyears' CC0
-notice does not determine its terms. Publication or distribution depends on human
-resolution of the applicable rights and licensing, alongside a publication grant.
-This does not block the authorized local editorial work.
+The upstream libyears CC0 notice remains unchanged at
+[provenance/libyears-CC0.txt](provenance/libyears-CC0.txt) for copied source material,
+with accurate adaptation attribution. Its bytes differ from the root LICENSE;
+both notices are retained in their respective roles.
+
+The supplied historical original has no established authorship, license or public
+distribution permission in the available record. The exact outstanding clarification
+is: **who holds the relevant rights to that supplied file, and has that rightsholder
+authorized its public distribution in this repository under CC0-1.0 or other stated
+terms?** A statement from the authorized rightsholder, or an existing applicable
+license/permission identifying the work, would resolve that gap. No third-party
+rights are inferred from the project license. Its original bytes remain unchanged.
+Authorized local work is completable while this distribution dependency remains;
+publication of the full history would expose the historical original too.

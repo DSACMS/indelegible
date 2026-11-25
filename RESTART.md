@@ -1,36 +1,46 @@
-# README consolidation: restart here
+# Local integration and outbound preparation
 
-The human authorized consolidating the current human-facing guidance into README,
-removing the superseded standalone documents, migrating live references, preserving
-historical/frozen evidence, one fresh review, proportionate checks and a local commit.
-No libyears access, network, installation, external-target work, new experiment,
-runtime/Skill/plugin, license decision or publication is granted.
+The human authorizes local integration of both histories, selected-license wording,
+bounded read-only Tier2 methodology recovery, concrete checklist proposals, one
+fresh independent review, local checks and commits. No push, settings change,
+workflow trigger, package install, external-target work, new experiment or source
+modification is authorized. Unresolved policy proposals remain proposals.
 
-Starting clean main/HEAD: `85183e3c88bf0d281c6a5f165e6903da0948411e`.
-Completed scope: [README.md](README.md) now owns the principles and operating practices;
-AGENTS and PROVENANCE point to that guidance. The two superseded files are removed.
-STARTER remains unchanged as a portable handout and frozen participant input.
-Earlier reviews, source inventory, historical original and recovery evidence remain
-preserved. One fresh independent review completed APPROVE without material findings.
-Local links/anchors, reference migration, original/frozen evidence, prior records,
-whitespace and current-content security checks pass. Complete staged-diff and final
-committed-history results are retained with local closure; no product suite or
-hosted evidence is claimed.
-The [current task record](REVIEW.md#readme-consolidation-task) owns scope/disposition.
+Initial clean local main: `538a845ac24cd8ccb4ff3e588ea76beebeec0049`; no remotes or
+unrelated changes. Origin now names `https://github.com/DSACMS/indelegible.git`.
+Main-only fetch matched remote root `684c91de745880d385cc3a77bc76670d8fd435d7`.
+Normal merge `a8e39c0b5c88bd4c07ca758ccc822ca849283708` preserves both tips as ancestors,
+both original roots and all prior commits, adding only the unchanged remote LICENSE.
+The [task record](REVIEW.md#integration-and-tier2-preparation) carries exact parents,
+source/version boundaries, requirement map and proposed corrections T1–T10.
 
-Noncanonical checklist, candidate, original review and checks/completion records are
-in `indelegible/readme-consolidation/` beneath this checkout's resolved Git directory,
-verified excluded from tracking. The final commit and committed-history security
-result will be bound there after local completion; this is not a backup.
+CC0-1.0 is selected and retained in LICENSE; no project-license choice remains.
+The precise historical-original rights clarification is in
+[PROVENANCE.md](PROVENANCE.md#licensing). Earlier reviews and original/frozen
+witness artifacts remain unchanged. Publication of full history includes the
+historical original, so current-tree omission alone would not resolve its rights.
 
-Remaining human decisions: project-wide license, rights/licensing for distribution
-of the supplied original, and any publication grant. No consolidation blocker is
-known. Source run 007-0062 remains historical provenance; source-ledger reconciliation
-is separately scoped libyears work and is not resumed here. Real-task usefulness
-and net attention/coordination burden remain unmeasured.
+Completed local scope: license corrections and concrete outbound assessment. One
+fresh independent review approved; its low navigation finding E1 was corrected and
+focused verification approved. Local links, preservation, ancestry, privacy,
+whitespace and current-content security checks pass. Complete staged-diff evidence,
+final committed-history scan and actual remote-ref comparison belong to the local
+completion record after the documentation commit. No institutional Tier2 clearance,
+settings verification or hosted job success is claimed.
+Noncanonical inspection/fetch/merge/source bindings, frozen candidate, original
+review, checks and exact final commit/ref completion record live in
+`indelegible/outbound-preparation/` beneath this checkout's resolved Git directory,
+verified excluded from tracking; local durability is not backup.
 
-**One next useful task:** a willing maintainer uses [the README task outline](README.md#begin-one-useful-task)
-for one small change they already need, noting missing context, confusing ownership
-and unnecessary ceremony. Select that task and its bounded grant first. This note
-starts no experiment, requires no premium model and grants no further work.
+Consequential remaining decisions: rightsholder permission for the historical
+original; Tier2 owner's applicable version, review/attestation and documentation
+scope; metadata/policy/contact facts and any approved mapping/exception; repository
+admin controls/bootstrap path and eventual publication grant. Libyears' waivers,
+approvals and observation ledger are not transferred. Source run 007-0062 stays
+historical; source-ledger reconciliation is not resumed.
+
+**One next useful task:** obtain the named Tier2 owner's disposition on the mapped
+open requirements and T1–T10, then prepare only the agreed missing artifacts and
+controls under a bounded follow-up grant. No institutional source was contacted
+here; the retained source copy cannot establish current policy.
 Push performed: NO.

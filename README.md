@@ -277,12 +277,19 @@ synthesis and operating practices; superseded documents and their exact review
 boundaries remain in Git, as explained in [provenance](PROVENANCE.md).
 
 - [PROVENANCE.md](PROVENANCE.md): source attribution, historical evidence, original-byte identity and licensing detail.
-- [REVIEW.md](REVIEW.md): earlier reviews and the current consolidation task's grant, findings and disposition.
+- [REVIEW.md](REVIEW.md): task grants, findings and review dispositions.
 - [RESTART.md](RESTART.md): actual closure, remaining decisions and one next useful task.
 - [Recovery example](examples/recovery/README.md): optional read-only exercise, first response and qualified result.
 
-Libyears' retained CC0 notice applies to copied source material. No project-wide
-license has been selected for new Indelegible writing, and no license has been
-established for the supplied original. Distribution requires human resolution of
-applicable rights/licensing and a publication grant; authorized local work can
-continue. No original date, authorship or publication history is invented.
+Indelegible's human-selected project license is **CC0-1.0**, retained in
+[LICENSE](LICENSE) from the public repository's initialization. Upstream source
+notices and adaptation attribution remain in [PROVENANCE.md](PROVENANCE.md).
+The separately supplied historical original has unresolved distribution rights:
+the needed clarification is who holds the relevant rights and whether that person
+has authorized its public distribution here under CC0-1.0 or other stated terms.
+The project license alone does not establish that permission or invent authorship.
+
+[The outbound preparation assessment](REVIEW.md#integration-and-tier2-preparation)
+records the local history integration, Tier2 requirement map and proposed checklist
+corrections. It is preparation for review, not institutional clearance or permission
+to publish.
