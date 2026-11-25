@@ -1,140 +1,112 @@
-# How to Contribute
+# Contributing to Indelegible
 
-Send documentation corrections, bounded proposals and task/recovery improvements
-to [Indelegible issues](https://github.com/DSACMS/indelegible/issues) or a pull
-request against `main`. Read the [README task outline](README.md#begin-one-useful-task),
-[LICENSE](LICENSE) and [Code of Conduct](CODE_OF_CONDUCT.md). Ask in an issue when
-scope is unclear; sensitive reports use [SECURITY.md](SECURITY.md).
+Help make the next person's work easier to understand. We welcome clearer
+instructions, corrections to facts or links, and improvements to the task and
+recovery conventions. Explain the question your contribution helps someone answer.
 
-## Getting Started
+## Make a small contribution
 
-Use the README as the main guide. Choose one real input and useful result, identify
-the grant and stopping boundary, and inspect actual working state. The current
-[publication handoff](RESTART.md) identifies the selected human review route;
-a pull request is not approval to publish or change repository settings.
+Read the [README](README.md) first. Its [task outline](README.md#begin-one-useful-task)
+can help you choose one useful result and keep the change within an agreed scope.
+If the scope is unclear, ask in an
+[issue](https://github.com/DSACMS/indelegible/issues) before expanding the work.
 
-### Team Specific Guidelines
+1. Start a short-lived branch from `main`. You can use a fork if you do not have
+   write access. Inspect the working state and preserve unrelated changes.
+2. Edit the files needed for the question. Follow the README's
+   [readability principles](README.md#principles), and link to shared guidance
+   instead of copying it.
+3. Check the result and open a focused pull request against `main`. Explain the
+   problem, the resulting behavior and the checks you actually performed. Use
+   Conventional Commit subjects.
 
-CMS OSPO owns this internally maintained project. Roles and standard contacts are
-in [COMMUNITY.md](COMMUNITY.md); operating actors remain in
-[README](README.md#attribute-actions-and-authority).
+The [pull request template](.github/PULL_REQUEST_TEMPLATE.md) asks for scope,
+checks, limits and AI assistance. An existing issue or task record can hold the
+details; link to it rather than repeat it.
 
-### Building dependencies
+## Check your change
 
-None are needed to read, use or edit the documentation. This repository contains
-no package manifest, executable validation stack or owned hosted workflow. Use an
-ordinary editor and existing tools appropriate to the authorized change; do not
-add a framework or run repository-generation hooks to check documentation.
+Use an ordinary editor. The repository has no build, package installation or
+project linter. Read the changed passages from start to finish and check that a
+newcomer can find the next action.
 
-### Building the Project
+Check local links and anchors, the staged diff and whitespace. Review required
+documents for meaningful content and metadata for accurate facts. Preserve the
+historical original and frozen recovery evidence. A file's presence alone does
+not establish that its contents are adequate.
 
-There is no compiled product, package or deployment. Edit Markdown and the required
-policy/metadata artifacts, then check the result proportionately below. Preserve
-the historical original and frozen synthetic witness bytes.
+When metadata changes, use the retained CMS schema with an available bounded
+validator. Prior schema evidence can be reused while both the document and schema
+remain unchanged. Keep factual review separate from schema compliance.
 
-### Workflow and Branching
+When secret checks are authorized, an installed scanner can use the retained
+`.github/.gitleaks.toml`. Current content and final committed history are separate
+scopes. Record the candidate, scanner version, configuration, available refs and
+actual result. There is no scanner installation or scheduled job supplied by this
+repository, and no application test suite to run.
 
-Use a short-lived branch from `main` and open a focused pull request against
-`DSACMS/indelegible`. Explain the problem, resulting behavior, authority and checks.
-Preserve unrelated work. Use Conventional Commit subjects. Reviewers validate
-against the task grant and retain original findings through bounded correction.
-No additional `dev` branch, DCO, auto-changelog or release workflow is required by
-this contribution process. GitHub enforcement is separate from these instructions.
+## Review and publication
 
-### Testing Conventions
+Reviewers inspect the change against its purpose, scope and evidence. Keep their
+original findings when making corrections. The README explains
+[proportionate review](README.md#review-and-correct-proportionately) and
+[actor responsibilities](README.md#attribute-actions-and-authority).
 
-Inspect the required documents for meaningful project/policy content and the
-metadata for actual supplied facts. Check changed local links/anchors, original
-and frozen-example preservation, explicit staged scope and whitespace. When metadata
-changes, use the retained CMS schema with an available bounded validator; reuse
-prior schema evidence only while the document and schema remain unchanged.
+For the current outbound candidate, the commissioning human is the sole qualified
+engineer reviewer and OSPO approver. Their completed disposition is still awaited.
+Agent review cannot supply it. After approval, the human publishes and performs
+the applicable post-push admin actions described in [RESTART.md](RESTART.md).
+There are no owned hosted jobs to await or package releases to perform.
 
-For authorized secret checks, an already installed scanner can inspect current
-content and final committed history using the retained `.github/.gitleaks.toml`.
-These are separate scopes; record version, configuration, candidate, available refs
-and actual outcome. This repository supplies no scanner installation, custom
-runtime or scheduled job. Do not turn an optional tool example into a dependency.
+## Ask for help
 
-Record relevant missing or invalidated checks in the task record. File presence,
-substantive review, schema compliance, secret scanning and human approval are
-different claims. No application build or product test suite applies here.
+Use [issues](https://github.com/DSACMS/indelegible/issues) for public questions and
+project feedback. [COMMUNITY.md](COMMUNITY.md) explains who maintains the work and
+how to participate. Follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
-### Coding Style and Linters
+Use [SECURITY.md](SECURITY.md) to report sensitive security concerns. Keep
+credentials, private paths, personal data and operational handoffs out of public
+issues and pull requests.
 
-Follow the README's [readability principles](README.md#principles). Keep one owner
-for shared prose and link exact sections. There is no project linter to run.
-Review readable guidance, accurate facts and proportionate evidence; a missing
-template heading is not automatically a missing outcome.
+## AI assistance
 
-### Writing Issues
-
-Include the user question, expected versus actual result, relevant input and limits.
-Do not post private paths, credentials, personal data or operational handoffs.
-
-### Writing Pull Requests
-
-State what changed and why, the candidate and checks actually executed, findings,
-limits and any missing approval. Disclose AI assistance. The
-[pull request template](.github/PULL_REQUEST_TEMPLATE.md) supplies these fields.
-
-### Reviewing Pull Requests
-
-Use [proportionate review and correction](README.md#review-and-correct-proportionately).
-Agent review does not replace completed qualified-human review or OSPO approval.
-Follow the [recorded risk-based route](REVIEW.md#human-outbound-review-packet): for
-this candidate, the commissioning human is the sole qualified engineer reviewer
-and OSPO approver. Do not infer completion from their authority or route selection.
-
-## Shipping Releases
-
-No versioned package, release schedule or deployment is selected. For this candidate,
-the commissioning human publishes after their sole qualified review/OSPO approval,
-then performs the [post-push follow-through](RESTART.md). This file grants no agent
-push, tag or release.
-
-## Documentation
-
-The [README](README.md) owns current principles and practices. Required policy
-files own their specific terms. PROVENANCE records sources, REVIEW records tasks
-and evidence, and RESTART records current closure. Git preserves superseded text.
-
-## AI Usage
-
-AI tools *(LLMs, coding assistants)* are welcome as part of your contribution workflow, but they don't change who's responsible for the code you submit.
+AI tools are welcome in a contribution workflow. You remain responsible for the
+work you submit. Disclose AI assistance explicitly in your pull request description.
 
 ### Recommended uses
 
-- Gaining understanding of the existing code, or solution ideas of the issue
-- Translating or proofreading your comments or PR descriptions while keep the wording as close as possible to what you originally wrote
+Use AI to understand existing code or explore possible solutions. It can also help
+translate or proofread comments and pull request descriptions. When using it for
+that writing, keep the wording as close as possible to what you originally wrote.
 
-Whenever you use AI in any of these ways, disclose it explicitly in your PR description.
+### Uses we do not recommend
 
-### Not recommended uses
+We do not recommend letting external AI bots or agents interact directly with the
+project by creating issues, opening pull requests or posting comments.
 
-- External AI tooling *(bots, agents)* directly interacting with the project, including creating issues, opening PRs, or commenting on GitHub
-- Submitting AI generated code you can't explain line by line to a developer, or using AI output without fully understanding it or verifying it's the correct approach
-- Submitting a PR where the effort you put in, such as writing a prompt, is less than the effort it would take a maintainer to review it. We can already write prompts or run automated tools ourselves and doing that directly is faster and more secure than reviewing a low effort PR.
-- Using AI to increase the breadth of your contributions, such as spreading yourself across several projects at once. You provide more value by engaging deeply with one or two projects than shallowly with many.
+We do not recommend submitting generated code you cannot explain line by line to
+a developer. We also discourage using output before understanding it and verifying
+the approach.
+
+Avoid a pull request where prompting takes less effort than reviewing the result
+would take a maintainer. Maintainers can run prompts and tools themselves; a
+contribution should justify the review work it asks of them.
+
+We also discourage using AI to spread contributions across many projects. Engage
+deeply with one or two projects so your work benefits from understanding their
+needs.
 
 ## Policies
 
-### Open Source Policy
-
-We adhere to the [CMS Open Source
-Policy](https://github.com/CMSGov/cms-open-source-policy). If you have any
-questions, just [shoot us an email](mailto:opensource@cms.hhs.gov).
-
-### Security and Responsible Disclosure Policy
-
-_Submit a vulnerability:_ Vulnerability reports can be submitted through [Bugcrowd](https://bugcrowd.com/cms-vdp). Reports may be submitted anonymously. If you share contact information, we will acknowledge receipt of your report within 3 business days.
-
-For more information about our Security, Vulnerability, and Responsible Disclosure Policies, see [SECURITY.md](SECURITY.md).
+We adhere to the [CMS Open Source Policy](https://github.com/CMSGov/cms-open-source-policy).
+For policy questions, contact [opensource@cms.hhs.gov](mailto:opensource@cms.hhs.gov).
+The [security and responsible disclosure policy](SECURITY.md) gives the CMS
+reporting channel and its acknowledgement commitment.
 
 ## Public domain
 
 This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/) as indicated in [LICENSE](LICENSE).
 
 All contributions to this project will be released under the CC0 dedication. By submitting a pull request or issue, you are agreeing to comply with this waiver of copyright interest.
-
 
 Source adaptation: [PROVENANCE.md](PROVENANCE.md#standard-policy-adaptation).

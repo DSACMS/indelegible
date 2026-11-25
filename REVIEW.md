@@ -993,3 +993,50 @@ report retained. Bounded checks cover 135 local links and meaningful policy/cont
 mapping; final staged content/whitespace and committed-history/ref gates bind the
 resulting commit in excluded completion evidence. Only closure prose follows the
 freeze; the actual human review/OSPO disposition remains pending.
+
+## Human-voice editorial revision
+
+Starting clean main: `9c84d706bbbbe5ee09ea325c9b1aa48a3f443a3a`. The human authorizes
+editorial changes to README and repository-hygiene guidance, bounded named DSACMS
+style consultation, focused verification/review and a local commit. Scope remains
+documentation-only. The sole-human qualified review/OSPO route, post-push admin
+sequence and absence of owned hosted jobs remain unchanged; actual human approval
+is still pending.
+
+README uses the supplied opening and connected paragraphs, then moves through
+mission/team, a small task, durable context/readable work/control, useful outcomes,
+shortfalls/review/maintenance, participation and evidence limits. CONTRIBUTING,
+COMMUNITY and SECURITY give each reader a clear next action. The PR template asks
+the same scope/check/AI questions in plainer language. CODE_OF_CONDUCT is unchanged;
+normative disclosure and CC0 terms are preserved. No process obligation, executable
+component, metadata change or new canonical philosophy file is introduced.
+
+All five named style references were accessible. Source snapshots/blob identities
+are retained in excluded `indelegible/tier2-local/editorial/` under the resolved Git
+directory. The [provenance note](PROVENANCE.md#human-voice-editorial-sources) records
+how they were used. House style does not override pinned policies; the profile's
+different security channel, stale statistics and unrelated application instructions
+are not imported. Original history, frozen materials and prior reviews remain intact.
+
+Author verification reads the candidate continuously for progression and next
+actions, checks preservation of operating/policy meaning and local navigation,
+and inspects the explicit staged diff/whitespace. Unchanged metadata/schema evidence
+is reused by exact hashes. Installed GitLeaks checks current content and final
+non-shallow committed history separately, without a new dependency or framework.
+
+The old `9c84d706bbbbe5ee09ea325c9b1aa48a3f443a3a` publication block is INVALIDATED.
+The existing handoff is replaced after closure with the actual final commit/tree
+and observed remote base. Prior handoff bytes, original non-author review and final
+check/ref bindings remain local editorial evidence; exclusion is verified and
+local durability is not backup. The agent performs no publication, settings change,
+hosted trigger, upstream submission or further institutional review.
+
+Fresh focused non-author review returned **Completed / APPROVE**, no material
+finding, for 36-file manifest SHA-256
+`345a0e3e8bfbb81793f22f7f2c4ee0be99e7886dfdfaf969efe16877f594a562`.
+It read the actual before/after text and README continuously, checked preserved
+policy/operating meaning and verified 28 protected files and the prior review text.
+The original report is retained. Local navigation covers 129 links; unchanged
+metadata/schema evidence is reused. Only this closure prose follows the freeze;
+staged scope/whitespace, current-content and final-history/ref gates bind completion.
+Actual qualified-human review, OSPO approval and publication remain pending.

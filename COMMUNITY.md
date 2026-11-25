@@ -1,63 +1,54 @@
 # Indelegible Community
 
-## Project Members
+Indelegible welcomes people who want software work to be easier to understand and
+continue. You can help by asking a clear question, explaining where an instruction
+became confusing or proposing a small improvement.
 
-| Role | Name or accountable office | Affiliation / contact |
-| --- | --- | --- |
-| Project owner and internal maintainer | CMS OSPO | CMS/OHTP/OSPG; opensource@cms.hhs.gov |
-| Tier2 Authority, qualified human reviewer, OSPO approver and repository admin | Commissioning human, explicitly self-confirmed for this candidate | Current [risk/review disposition](REVIEW.md#human-outbound-review-packet) |
+## Take part
 
-These assignments are human-supplied. No personal name, GitHub code-owner handle,
-charter, signature or completed review is invented.
+Use [issues](https://github.com/DSACMS/indelegible/issues) for public questions and
+feedback. [CONTRIBUTING.md](CONTRIBUTING.md) describes the contribution path.
+The [README principles](README.md#principles) explain the approach behind it.
 
-## Roles & Responsibilities
+Follow the [Code of Conduct](CODE_OF_CONDUCT.md) in project conversations. Use its
+reporting contact for conduct concerns. Report sensitive security findings through
+[SECURITY.md](SECURITY.md).
 
-CMS OSPO maintains the guidance, triages documentation/security findings, and routes
-contributions and policy questions through the standard open-source contact above.
-The Tier2 Authority selects the applicable outbound route. For this lowest-risk
-candidate, one qualified human review and OSPO approval suffice; the commissioning
-human performs both and their completed disposition is awaited. They publish after
-review and perform admin actions after push. No additional reviewer or institutional
-approver is required. The [README actor table](README.md#attribute-actions-and-authority)
-owns the distinctions between authoring, approval, execution and review.
+## Who maintains the work
 
-## Principles
+CMS OSPO owns and internally maintains Indelegible within CMS/OHTP/OSPG. It
+maintains the guidance, responds to project issues and routes documentation,
+security and policy concerns. You can contact the office at
+[opensource@cms.hhs.gov](mailto:opensource@cms.hhs.gov).
 
-The [README principles](README.md#principles) are the canonical project principles.
-Participation should be transparent, accessible and useful to contributors. The
-standard DSACMS community guidelines below govern interactions; operating grants
-remain bounded by the task and repository instructions.
+For the current outbound candidate, the commissioning human is the Tier2 Authority,
+sole qualified engineer reviewer, OSPO approver and repository administrator. They
+selected one human review and OSPO approval for this documentation-only scope.
+Their completed disposition remains pending. They publish after approval and
+perform the applicable admin actions after push.
 
-### Community Guidelines
+No additional reviewer or institutional approver is required for that route.
+The [current packet](REVIEW.md#human-outbound-review-packet) records the decision;
+the [README actor table](README.md#attribute-actions-and-authority) explains the
+general distinction between authoring, deciding, executing and reviewing.
 
-All community members are expected to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md).
+## Community guidelines
 
-Information on contributing to this repository is available in our [Contributing file](CONTRIBUTING.md).
+When joining a conversation, introduce yourself. Share your organization if you
+have one, your pronouns, a strength you bring and how you hope to contribute.
 
-When participating in Indelegible open source community conversations and spaces, we ask individuals to follow the following guidelines:
+Ask questions and share what you learn. People arrive with different experience
+and starting points. Treat questions as part of learning together.
 
-- When joining a conversation for the first time, please introduce yourself by providing a brief intro that includes:
-  - your related organization (if applicable)
-  - your pronouns
-  - your superpower, and how you hope to use it for Indelegible
-- Embrace a culture of learning, and educate each other. We are all entering this conversation from different starting points and with different backgrounds. There are no dumb questions.
-- Take space and give space. We strive to create an equitable environment in which all are welcome and able to participate. We hope individuals feel comfortable voicing their opinions and providing contributions and will do our best to recognize and make space for individuals who may be struggling to find space here. Likewise, we expect individuals to recognize when they are taking up significant space and take a step back to allow room for others.
-<!-- TODO: Add if your repo has a community chat - Be present when joining synchronous conversations such as our community chat. Why be here if you're not going to _be here_? -->
-- Be respectful.
-- Default to positive. Assume others' contributions are legitimate and valuable and that they are made with good intention.
+Make room for others to speak. Notice when you have taken much of the conversation
+and help people who may be finding it difficult to join in. Everyone should have
+space to contribute.
 
-### Acknowledgements
+Be respectful and assume contributions are made in good faith. Help each other
+understand the work and improve it.
+
+## Acknowledgements
 
 The Community Guidelines sections were originally forked from the [United States Digital Service](https://usds.gov) [Justice40](https://thejustice40.com) open source [repository](https://github.com/usds/justice40-tool), and we would like to acknowledge and thank the community for their contributions.
-
-
-## Governance and feedback
-
-Use [issues](https://github.com/DSACMS/indelegible/issues) for public project feedback,
-[CONTRIBUTING.md](CONTRIBUTING.md) for contribution terms, and
-[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for conduct and reporting. Use CMS OSPO's
-standard email for policy or private coordination; use [SECURITY.md](SECURITY.md)
-for sensitive security reports. No chat channel, response roster or automatic
-contributor-management service is asserted.
 
 Source adaptation: [PROVENANCE.md](PROVENANCE.md#standard-policy-adaptation).

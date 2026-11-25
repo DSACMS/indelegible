@@ -284,3 +284,25 @@ against the exact scaffolder revision above. It now separates assurance outcomes
 from optional tools and provides documentation-only mappings without waiving
 substantive policies. Indelegible's adopted human route remains sole qualified
 human review/OSPO approval, human publication, then applicable admin actions.
+
+### Human-voice editorial sources
+
+The editorial revision consulted the public READMEs for
+[super-changelog](https://github.com/DSACMS/super-changelog),
+[metrics](https://github.com/DSACMS/metrics),
+[ospo-guide](https://github.com/DSACMS/ospo-guide),
+[repo-scaffolder](https://github.com/DSACMS/repo-scaffolder) and the
+[DSACMS profile](https://github.com/DSACMS). Their purpose/team/participation/policy
+progression informed the organization. The OSPO description paraphrases the guide
+and profile; CMS ownership/group facts retain their human attribution above.
+README blob identities and captured-source hashes are retained in the local
+editorial evidence. Statistics, application setup, acknowledgements and branch
+models from those examples were not imported.
+
+The pinned policy/template sources above remain authoritative for adopted policy.
+The profile's different HHS reporting channel does not replace the verified CMS
+channel. SECURITY retains the CMS reporting/acknowledgement and standard disclosure
+text. CONTRIBUTING retains the CC0 contribution terms verbatim and the meaning of
+the AI-use recommendations. Community guidelines use complete sentences with the
+same participation expectations and credits. CODE_OF_CONDUCT, source notices,
+metadata, the historical original and frozen evidence remain unchanged.
