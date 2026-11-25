@@ -564,3 +564,170 @@ then receives Bash/zsh syntax checks without execution. Local preparation is
 complete subject to those closure gates; publication remains blocked by the finite
 human/configuration requirements above. Agent approval is not institutional
 qualified-engineer review, dependency-risk acceptance or permission to publish.
+
+## Human outbound review packet
+
+The commissioning Tier2 Authority, having heard the retained dependency findings,
+directs continued preparation with the current validation chain. This is authority
+to proceed with these tools, not remediation, qualified security acceptance or an
+institutional exception. The 12 advisory package entries (2 critical, 4 high,
+6 moderate) and [use-path triage](#validation-results-and-finding-disposition)
+remain unchanged. No audit refresh, dependency change or replacement is performed.
+The human identifies OSPO projects repo-baseline and repo-upgrader as possible
+future support for replacement and a multi-contributor exercise; neither is
+accessed, researched or added to a new queue here.
+
+This continuation starts at clean main
+`ae86aa08ad0cbdcc69eb66afd7ecb0110cda7b30`. Only this packet and RESTART change.
+All settled rights, ownership, maintenance, FISMA and inventory facts remain as
+[attributed above](#tier2-local-preparation); no repeat approval is requested.
+Acceptance is an exact-candidate review/publication handoff, verified retained
+coverage, current public control evidence and a finite list of human actions.
+No publication, settings change, installation or upstream/source work is granted.
+
+### Candidate and reading order
+
+The existing local `indelegible/tier2-local/publication-handoff.md` beneath the
+resolved Git directory is updated in place after closure. Its header names the
+**exact final commit, tree, observed remote base and intended published history**;
+its companion continuation completion record binds the checks. This avoids a
+self-referential commit hash in tracked prose. The previous handoff is retained.
+These excluded local records are not published, backed up or an institutional
+approval system. Supply them with the checkout to the appointed reviewers; do not
+send raw acquisition/operational evidence wholesale to a public issue.
+
+1. Read [README](README.md#about-the-project) for purpose, principles and actual
+   documentation/validation-tool scope; [CONTRIBUTING](CONTRIBUTING.md) and
+   [SECURITY](SECURITY.md) explain use and reporting.
+2. Inspect the exact handoff commit and all intended history. Compare remote base
+   `684c91de745880d385cc3a77bc76670d8fd435d7` to that commit; compare
+   `ae86aa08ad0cbdcc69eb66afd7ecb0110cda7b30` to it for this packet-only delta.
+   Both original roots and the prior merge must remain ancestors. A review of only
+   the latest diff does not cover first publication of the earlier history.
+3. Use [standard-policy provenance](PROVENANCE.md#standard-policy-adaptation) and
+   [the original applicability map](#requirement-map) with its historical
+   disposition. The [implemented files](#implemented-files-and-local-clarifications),
+   [validation results](#validation-results-and-finding-disposition) and current
+   action table below supersede that map's old pending statements.
+4. Inspect [the proposed upstream patch](proposals/tier2-checklist.patch). It targets
+   repo-scaffolder `172e445ce022d98d06b457ca03a0a5cb8e4b1dad`; it does not amend the
+   controlling checklist. The baseline checklist at `14e2a01482084da7bc1a5aac825e2f1ea23e8529`
+   has identical bytes. CMS policy is pinned to
+   `f4b95dfeaf823c7f28df7b3db89d75c6ce86dc30`; CMS2.1.0 schema source to
+   `06c7d5083f7dd7ecef0240fb7baa7453662fd583`. No new policy sourcing occurs here.
+
+### Qualified review questions and disposition
+
+The applicable requirement is **repo-scaffolder Tier2 checklist, Code Review** at
+the revision above: two or more independent engineers who wrote production code
+within the past two years in the languages used, uninvolved in writing or technical
+direction of this work. The retained local source is
+`indelegible/tier2-local/sources/checklist-current.md`. Each reviews the codebase
+top to bottom for quality/security and credential management including history,
+using a current significant-vulnerability listing with manual/tool coverage made
+explicit. Prior agent approval supplies scoped evidence, not this qualification.
+
+Ask each appointed reviewer to record, in the Authority's designated review record:
+
+- Name, organization, relevant production-language experience/date, independence,
+  exact candidate/history, review date and coverage. Include JavaScript validation
+  code, JSON/YAML configuration and Markdown/policy content in the actual scope.
+- Whether the guidance and policies are accurate/useful, attribution and CC0
+  permission remain faithful, metadata facts match the supplied authority, and the
+  proposed checklist patch stays visibly proposed without losing obligations.
+- Security/privacy/history findings and coverage against their chosen current
+  vulnerability reference; explain non-applicability to this surface rather than
+  treating documentation scope as a blanket waiver.
+- Disposition of the exact legacy-tool advisory/use-path evidence and six source
+  warnings: any required correction, bounded acceptance within their authority or
+  referral to the responsible security approver. The Authority's decision to
+  continue preparation is not an independent security verdict.
+- Comments, unresolved findings/coverage and **approval or disapproval**. No blank
+  signature or approval is prefilled. If an exception is actually sought, identify
+  its exact requirement, scope, approving role/authority, rationale and evidence;
+  this packet requests no general waiver and transfers no libyears exception.
+
+The local evidence index is relative to `indelegible/tier2-local/` in the Git
+directory. `checks-prepared/presence.txt` has zero required errors, eight optional
+warnings and two unavailable optional axioms. `checks-candidate/source-security.txt`
+has zero errors/six filesystem warnings, with the retained triage above.
+`dependency-audit-final.json` and `dependency-audit-summary.json` retain the 12
+entries, bound to lock SHA-256
+`2e86f6e9b1e8c5bd156998743f51cce6e0a46a584e63850c07bbf7dade935b76`.
+`checks-final-v2.json`, `final-staged-v2.json` and `completion.json` bind the prior
+schema/facts/workflow/navigation/content/history checks. This task verifies those
+bindings and carries unchanged scopes, instead of rerunning the chain. Only new
+prose/navigation, current content, staged whitespace/preservation and the final
+committed-history gate need new results. Original agent findings/revisions remain
+in the prior review reports; they are not rewritten as human approval.
+
+### Current action classification
+
+| Class / item | Disposition and exact closing evidence / actor |
+| --- | --- |
+| Already complete | Integration, rights decisions, standard sources/files, schema-valid metadata, tooling/workflow preparation and prior local agent review: exact records above and prior completion at ae86aa0. No repeat integration, sourcing, metadata work or institutional review inferred. |
+| Routine preparation | This packet, retained-check binding verification, public control observation and updating the existing exact publication handoff are completed locally; closure results bind the final commit. |
+| Missing factual answer | No essential inventory or rights fact is reopened. Clone traffic remains unobserved and schema-permitted omission is disclosed. Institutional applicability and admin-only facts are assigned below, not invented. |
+| Qualified review — Tier2 Authority appoints reviewers | Obtain the two reviews just specified, including advisory/warning disposition. Close with their actual candidate-bound records; prior agent votes do not count. |
+| Institutional disposition — Tier2 Authority routes to responsible approvers | Record applicable checklist risk attestations (privacy, internal systems, credentials, national security/intelligence/FOIA and export/regulatory exclusions), ISSO/ISG/business-owner recommendations, and CMS-policy TRB/OGC routing. Identify the existing public information page/staffing basis and test/build applicability for this Tier2 harness or the responsible policy owner's scoped disposition. Reuse any actual existing approval record after checking its scope; absence here does not assert it never occurred or require repeating it. CC0 selection and original-distribution authority are settled. |
+| Administrator configuration — repository admin | Supply the control evidence and approved upload/merge path below; description/topics are prepared in README/code.json. No control is inferred disabled from an omitted field or 401. |
+| Publication execution — commissioning human | Grant the exact upload/ref/path only after applicable prerequisites; execute the updated handoff without force or history rewriting. A branch upload also publishes content and needs authorization. |
+| Hosted result — Actions executes; admin/maintainer observes | After upload, retain actual check-run URLs, head/merge SHAs, conclusions/logs and scanner scope; establish required contexts from actual runs and enforce subsequent changes. No hosted pass exists for this candidate yet. |
+
+### Administrator inspection and bootstrap sequence
+
+Fresh read-only public observation confirms default main remains the remote root,
+`protected: false`, repository rulesets `[]` and effective main rules `[]`. There
+are zero registered workflows and zero runs. Description/homepage are null and
+topics empty. Branch-protection detail, Actions permissions and dependency-alert
+control endpoints return401. Security/analysis fields are not exposed. No
+authenticated retry, credential search, settings change or workflow trigger occurs.
+Responses and time are retained in the local `continuation/` evidence directory.
+
+An existing authorized admin should inspect the following in GitHub's repository
+Settings UI or its existing authenticated REST access. No new integration or PAT
+is needed or requested. API paths below are relative to
+`https://api.github.com/repos/DSACMS/indelegible`; use GET for evidence, not a write
+request copied from another project. GitHub CLI is unavailable in this checkout;
+no `gh` command is prescribed.
+
+| Inspection / configuration action | Evidence to retain |
+| --- | --- |
+| Settings → Rules / Branches: inspect active main rules, including inherited organization rules; GET `/rules/branches/main`, `/rulesets`, `/branches/main/protection`. Protect main from force push/deletion, apply approved review rules, and select the real initial upload path. | Dated effective rules/export or screenshots, target refs, enforcement mode, required approvals/checks and any authorized bootstrap disposition. Use PR path if required; no bypass or disabling protection. Preserve merge commits; squash/rebase would discard the intended history. |
+| Settings → Actions → General; GET `/actions/permissions` and repository policy UI. Confirm Actions and the pinned actions are allowed, default token is read-only, and do not enable workflow PR-writing just for these jobs. | Actual allowed-actions/token/fork-approval policy, actor/date; if organization policy blocks execution, its owner and resolution. Configured permission is not execution evidence. |
+| Settings → Security: inspect applicable Dependabot alerts and secret-scanning/push-protection controls; GET repository details and `/vulnerability-alerts` with existing authorized access. | Actual enabled/disabled/unavailable status and applicable policy disposition; omitted unauthenticated fields are unknown. No secret alert payloads are needed. |
+| Repository About: use README description and code.json topics; resolve existing information-page requirement through the Authority. | Actual description/topics/page link where applicable. Do not add release, package, deployment or website machinery to satisfy an example. |
+
+Sequence: (1) obtain the applicable qualified/institutional records; admin can
+inspect controls independently. (2) Apply required available controls and record
+the permitted bootstrap path. Do not require an unuploaded workflow's successful
+run. (3) Under a separate publication grant, upload the exact candidate through the
+selected path. If main requires PR, upload the candidate branch, open a PR to main,
+and preserve history with a merge commit; never use the direct-main block. The
+prepared push triggers can produce branch evidence before PR merge. (4) Observe
+the actual hygiene/security jobs and their head/merge SHAs; if policy blocks or
+skips a run, record that gap rather than a pass. (5) Admin selects the actual
+observed job contexts (expected display names “Tier2 local artifact checks” and
+“Source and history security checks”, verify before enforcing), then requires
+them and reviews for subsequent changes; for PR publication do this before merge
+where supported. Any policy requiring those gates before the first content upload
+needs its owner's explicit bootstrap disposition, not a circular prerequisite.
+(6) Verify published main/ancestry and post-merge checks when applicable. Required
+post-upload evidence remains open until observed. Weekly scanning is prepared,
+not claimed executed. Inventory/announcements remain outside this grant.
+
+### Continuation verification
+
+Checks and the exact resulting commit are retained in local continuation evidence.
+The prior qualified-review requirement is unchanged; this packet narrows the
+handoff, not the standard. Review of new packet/control wording does not reopen
+the completed implementation audit or confer institutional approval.
+
+Focused non-author review returned **Completed / APPROVE**, no material finding,
+for manifest SHA-256
+`091efc0acdb23e4056e654b2c7a8c9b6e694e0c12df72f6497014c1141abf214`.
+Coverage included the two-file delta, actual retained bindings/control responses
+and both blocked publication paths; all 43 other files matched. The original report
+is retained. Only this closure disposition follows that freeze; new scoped checks,
+final history/ref evidence and exact hash substitution complete local closure.
+No institutional review, control change or hosted execution is inferred.
