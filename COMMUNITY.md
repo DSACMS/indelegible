@@ -12,7 +12,7 @@ charter, signature or completed review is invented.
 
 ## Roles & Responsibilities
 
-CMS OSPO maintains the guidance, triages issues and validation findings, and routes
+CMS OSPO maintains the guidance, triages documentation/security findings, and routes
 contributions and policy questions through the standard open-source contact above.
 The Tier2 Authority selects the applicable outbound route. For this lowest-risk
 candidate, one qualified human review and OSPO approval suffice; the commissioning

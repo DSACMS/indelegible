@@ -1,9 +1,29 @@
 --- a/tier2/checklist.md
 +++ b/tier2/checklist.md
-@@ -3,6 +3,40 @@
+@@ -3,6 +3,63 @@
  ## Tier 2: Close Collaboration
 
  This is a review process to approve CMS-developed software to be released open source at [github.cms.gov](https://github.cms.gov/). If you would like your repository to be released, please complete the following steps.
++
++### Documentation-only applicability
++
++Identify the maintained repository surface before selecting evidence or tools.
++Required policy documents, accurate metadata, rights/provenance, privacy/security
++review and accountable human approval remain substantive outcomes. For a
++documentation-only repository, map setup/build/test/lint examples to editing,
++manual content/presence review, metadata-schema checks, navigation, integrity and
++bounded current-content/history secret checks. Record actual evidence and limits.
++Do not acquire executable validation software to satisfy a tool-specific example.
++This mapping is not a blanket waiver of organizational requirements.
++
++Indelegible's human-selected documentation-only route removes its owned validators,
++dependency installation, repolinter configuration and workflows. Alternative
++evidence is manual policy/content review, preserved supplied facts, a full bounded
++CMS-schema result bound to unchanged final metadata/schema, local link and frozen
++integrity checks, staged whitespace/scope, installed-scanner content/final-history
++results and the sole human review/OSPO disposition. These are different claims.
++Historical dependency findings remain history; removal is not upstream repair or
++a clean vulnerability audit. No replacement framework or absent job is required.
 +
 +### Evidence provenance and phase ownership
 +
@@ -23,8 +43,11 @@
 +bootstrap sequence for the selected risk route, including which controls precede
 +or follow upload. Do not require an unuploaded workflow's successful run. For
 +Indelegible, the recorded sequence is completed sole human review/OSPO approval,
-+human fast-forward push, then human-admin controls and exact-candidate hosted
-+observation, followed by subsequent enforcement. An actual server rejection stops
++human fast-forward push, then applicable human-admin controls. Hosted evidence
++is required only for automation actually retained and applicable; Indelegible now
++retains none. Do not wait for deleted jobs or require their status contexts.
++Projects retaining executable code/automation record their corresponding checks
++and subsequent enforcement. An actual server rejection stops
 +publication; no bypass or protection disablement is authorized. Protect the actual
 +approved branches; examples do not require dev, releases, websites or packages.
 +
@@ -41,7 +64,7 @@
 
  [Prerequisites](#prerequisites)
 
-@@ -111,17 +145,42 @@
+@@ -111,38 +168,63 @@
 
  ### Code Review
 
@@ -67,7 +90,7 @@
 +**Recorded Indelegible route (candidate-specific human disposition):** the
 +commissioning human states they are the qualified engineer reviewer, Tier2
 +Authority, OSPO approver and repository administrator. They assess this bounded
-+documentation/validation harness as the lowest publication risk, with no CMS
++documentation-only harness as the lowest publication risk, with no CMS
 +system integration and no PII/PHI. They select one qualified human engineer review
 +(their review) and OSPO approval, with no additional engineer or institutional
 +approver required. Their completed review/OSPO disposition is still awaited;
@@ -95,7 +118,46 @@
 
  ### Code Analysis
 
-@@ -167,11 +226,14 @@
+-At least one automated tool for code analysis (such as static code analysis tools) has been run on the codebase to look for security vulnerabilities, and results have been appropriately acted upon. Even if all findings are eventually fixed, if the initial scans revealed significant, severe vulnerabilities (such as SQL injection vulnerabilities), this indicates that the software development team may not be adhering to the best practices required for open source public release.
+-
+-Automated tooling for code analysis should be incorporated as a regularly scheduled part of the application development process. The development team should briefly document how frequently they commit to running these automated scanning tools, and who will be running the tests, interpreting, and acting upon the results.
+-
+-#### Toolkit
+-
+-Below is a list of suggested tools to run for code analysis:
+-
+-| Tool            | Description                                                                            | Link                                                                                                                                                                                                                          |
+-| --------------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+-| Repo Linter     | Lint repositories for common issues such as missing files,etc...                       | https://github.com/todogroup/repolinter                                                                                                                                                                                       |
+-| Gitleaks        | Protect and discover secrets using Gitleaks 🔑                                         | https://github.com/gitleaks/gitleaks <br /> Use and run [gitleaks.yml](https://github.com/DSACMS/repo-scaffolder/blob/main/tier2/%7B%7Bcookiecutter.project_slug%7D%7D/.github/workflows/gitleaks.yml) provided in repository |
+-| git filter-repo | Entirely remove unwanted files / files with sensitive data from a repository's history | https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository                                                                                                      |
+-| bulk_extractor  | Check for secrets, URLs, emails, etc.                                                  | [bulk_extractor Official Documentation](https://github.com/simsong/bulk_extractor) <br> [OSPO Guide Documentation](https://dsacms.github.io/ospo-guide/outbound/bulk_extractor/)                                 |
+-
+-#### Results
+-
+-_Insert Review Here_
++Assess the actual maintained surface and record the applicable analysis outcome.
++For projects shipping executable code, run appropriate automated vulnerability
++analysis, act on findings and record the responsible maintainer and recurrence.
++For documentation-only projects, use proportionate document/configuration,
++privacy/secret and metadata checks; source-analysis tooling for nonexistent code
++is not a prerequisite. Manual review, schema compliance, secret scanning and
++qualified-human approval are separate claims, not interchangeable passes.
++
++Tools are possible providers of evidence, not the requirement itself. A repository
++linter checks presence; it does not establish factual or policy adequacy. An
++installed secret scanner can check content/history without an owned package
++manifest, custom runtime or hosted workflow. Keep any retained automation scoped
++and maintained; require hosted evidence only where that automation exists and
++applies. Do not promise a scan schedule for removed or unselected jobs.
++
++#### Results
++
++_Record the surface, selected evidence, actual results, findings and limitations._
+
+ ### Review Licensing
+
+@@ -167,19 +249,20 @@
 
  Review the history of commits to the version control system used, and whether the team prefers to clean (e.g., rebase) this history before releasing to the public.
 
@@ -105,16 +167,31 @@
  1. There are no obscene or impolite remarks in comments or commit history
  2. There are no sensitive internal URLs/IP Addresses in comments or commit history
  3. There are no credential files such as Passwords, API/SSH/GPG keys checked into the repo.
-+
+
+-Consider using the following tools to perform the tasks above:
+-
+-| Tool            | Description                                                                                             | Link                                                                                                                                                                                                                                                                                                                                                         |
+-| --------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+-| gitleaks        | Open source tool that detects and prevents secrets (passwords/api/ssh keys) checked-in to your git repo | https://github.com/gitleaks/gitleaks <br> [What is git leaks and how to use it?](https://akashchandwani.medium.com/what-is-gitleaks-and-how-to-use-it-a05f2fb5b034) <br /> Use and run [gitleaks.yml](https://github.com/DSACMS/repo-scaffolder/blob/main/tier2/%7B%7Bcookiecutter.project_slug%7D%7D/.github/workflows/gitleaks.yml) provided in repository |
+-| git filter-repo | Entirely remove unwanted files / files with sensitive data from a repository's history                  | https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository                                                                                                                                                                                                                                     |
+-| bulk_extractor  | Check for secrets, URLs, emails, etc.                                                                   | [bulk_extractor Official Documentation](https://github.com/simsong/bulk_extractor) <br> [OSPO Guide Documentation](https://dsacms.github.io/ospo-guide/outbound/bulk_extractor/)                                                                                                                                                                |
 +Preserve history by default. History rewriting is a separately authorized
 +remediation, not a scanner or a substitute for review.
++
++Use appropriate manual history review and, where selected, an already installed
++secret scanner. Record candidate, refs, non-shallow scope, configuration, version
++and result. A hosted scanner workflow is one possible implementation, not a
++required artifact. History rewriting remains separately authorized remediation,
++not an analysis tool or a substitute for preserving findings.
 
- Consider using the following tools to perform the tasks above:
+ #### Results
 
-@@ -189,34 +251,22 @@
+@@ -187,36 +270,26 @@
 
- As part of our repository hygiene requirements, the project must include certain files and sections. Using repolinter will help you identify missing files and content that will need to be added to your repository before outbounding.
+ ### Review Repository Hygiene
 
+-As part of our repository hygiene requirements, the project must include certain files and sections. Using repolinter will help you identify missing files and content that will need to be added to your repository before outbounding.
+-
 -#### Running repolinter on your repository locally
 -
 -1. Install repolinter
@@ -143,26 +220,50 @@
 -
 -3. The result produces an issue on the repository with a list of file and section
 -   existence checks, indicating whether each requirement was met or not.
-+#### Running repolinter on an existing repository
++Verify required documents/sections and meaningful project-specific content.
++Manual review with an explicit evidence mapping is appropriate for a documentation
++harness. Missing optional template strings are not automatic substantive failures;
++record the actual gap rather than manufacture rosters or duplicate prose.
 +
-+Use a verified, pinned, isolated tool setup with lifecycle hooks disabled. Review
-+its dependency findings and installed interface. Resolve the pinned tier0, tier1
-+and tier2 rule inheritance for the standalone CLI without weakening rule levels.
-+Use local fixed-path dry-run validation; do not invoke repository-creation hooks,
-+clone arbitrary targets, overwrite configuration or imply tools are installed.
-+Record optional missing axioms separately from required presence results.
++#### Optional repository-linter evidence
 +
-+#### Running repolinter via GitHub Actions
++If a project chooses repolinter, inspect its interface/dependency findings and pin
++an isolated setup without weakening applicable rules. Do not run creation hooks,
++clone unrelated targets or overwrite configuration. A documentation-only project
++need not retain repolinter, its rule file or a package installation merely for
++these examples; record equivalent presence/content review separately.
 +
-+Put an approved workflow under .github/workflows/ and name its actual job. Verify
-+its triggers, pinned supported actions, permissions and output location. For
-+validation, prefer read-only contents permissions and logs/artifacts; do not assume
-+issue/PR creation, first-run labels or a PAT are necessary. Local workflow parsing
-+is preparation, not hosted execution. Observe actual results after authorized upload.
++#### Optional hosted hygiene evidence
++
++If automation is retained and applicable, put its workflow under .github/workflows/
++and record actual jobs, triggers, minimum permissions, outputs and post-upload
++results. Do not assume issue/PR writing or a PAT is required. If no owned workflow
++is retained, record hosted execution as not applicable and do not create a required
++check context for an absent job. Substantive policy requirements still apply.
 
  #### Review Content
 
-@@ -333,22 +383,16 @@
+@@ -289,9 +362,11 @@
+
+   _Defines the code of conduct for contributors_
+
+-- [ ] **repolinter.json**
+-
+-  _Lints repository for missing files and sections above_
++- [ ] **Applicable hygiene evidence**
++
++  _Record required-file/section presence and meaningful-content review. A tool
++  configuration is needed only for a tool actually selected; repolinter.json is
++  not a required file for the recorded documentation-only route._
+
+ #### Communications Style Guide
+
+@@ -329,26 +404,20 @@
+
+ Users can fill out a web form that creates a code.json file to be uploaded to a project's source code repository: https://dsacms.github.io/codejson-generator.
+
+-**Using automated-codejson-generator**
++**Optional automated-codejson-generator for projects selecting it**
 
  The [automated-codejson-generator](https://github.com/DSACMS/automated-codejson-generator) is a GitHub Action that automatically generates and maintains code.json files for federal open source repositories. It ensures schema consistency and automates various metadata calculations.
 
@@ -195,7 +296,19 @@
 
  As you continue development in this repository, it is important to keep this file up-to-date. Our [automated-codejson-generator](https://github.com/DSACMS/automated-codejson-generator) can assist with updating this file.
 
-@@ -417,22 +461,26 @@
+@@ -357,6 +426,11 @@
+ _Insert Review Here_
+
+ ### Review Repository Details
++
++Record actual repository description/topics and only the website, release,
++package, deployment or automation services selected for this project. A
++documentation-only harness need not create those services to populate an example.
++Keep substantive policy/applicability decisions attributed to their owner.
+
+ The GitHub repository homepage features a concise description of the project, a list of
+ relevant topic tags, and general information about the repository to provide a
+@@ -417,27 +491,33 @@
    - [ ] Regulations of the Transportation Security Administration related to the protection of sensitive information.
    - [ ] Federal laws and regulations governing the sharing of classified information.
 
@@ -230,12 +343,21 @@
 +After the applicable outbound requirements and authorization are satisfied,
 +publish the exact approved content using the agreed repository-control path.
 +An already public initialization is not publication of the local candidate.
-+Verify actual refs after publication, then record uploaded-candidate workflow
-+results, administrative configuration and rollout/inventory actions separately.
++Verify actual refs after publication, then record applicable administrative
++configuration and any hosted evidence only for retained automation. Record
++rollout/inventory actions separately; do not infer them from publication.
 
  #### Repository Actions
 
-@@ -449,14 +497,14 @@
+-Please enable the following features to enhance repository security and maintain code
+-quality:
++After the approved bootstrap upload, apply the applicable repository controls
++recorded by the responsible authority. Inspect actual availability/enforcement;
++unavailable settings are not passing evidence. No deleted workflow is a prerequisite:
+
+ - [ ] **Dependabot Alerts**
+
+@@ -449,14 +529,18 @@
 
  - [ ] **Branch Protections**
 
@@ -245,11 +367,18 @@
  - [ ] **Git Branching**
 
 -  _After making the repository public, make sure there is a coherent git branching plan in place. For example: agree to merge feature related pull requests into dev but merge bug fixes into main instead of dev first._
-+  _Record the actual branch/merge workflow and bootstrap sequence under the selected risk route before upload. Distinguish controls that precede upload from authorized post-upload administration. Indelegible's human performs the initial fast-forward push after their review, then admin controls and hosted follow-through; do not impose circular pre-upload check requirements or bypass actual server rules._
-
- - [ ] **Add Repolinter GH Action to CI**
-
+-
+-- [ ] **Add Repolinter GH Action to CI**
+-
 -  _For ongoing adherence to repository hygiene standards, integrate the [repolinter GitHub Action](https://github.com/DSACMS/metrics/blob/main/.github/workflows/checks.yml) into your CI pipeline. This addition enhances your workflow by automatically enforcing repository cleanliness standards._
-+  _For ongoing hygiene checks, use the approved repository-owned workflow under .github/workflows/. Record its actual jobs, triggers, minimum permissions and log/artifact outputs. Do not require an unrelated example workflow or imply that local inspection proves hosted execution._
++  _Record the actual branch/merge workflow and bootstrap sequence under the selected risk route before upload. Distinguish controls that precede upload from authorized post-upload administration. Indelegible's human performs the initial fast-forward push after their review, then applicable admin controls; hosted evidence applies only if automation is retained; do not impose circular pre-upload check requirements or bypass actual server rules._
++
++- [ ] **Applicable ongoing assurance**
++
++  _Record how maintainers keep the applicable outcomes valid. Documentation-only
++  repositories may use bounded manual checks and existing tools without owned CI.
++  Projects retaining code/automation record appropriate checks and actual hosted
++  results. Do not require repolinter, a workflow, schedule or check context solely
++  to satisfy this example, or treat local inspection as hosted execution._
 
  - [ ] **Optional: DCO (Developer Certificate of Origin)**

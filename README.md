@@ -9,10 +9,11 @@ continue when the original conversation or contributor is gone. It optimizes for
 
 ## About the Project
 
-Today it is an experimental development harness made of readable repository files.
+Today it is an experimental documentation harness made of readable repository files.
 You can use the task outline and working practices below for one bounded change,
 or inspect the fictional recovery example without executing anything. No agent
-runtime is required. This README owns the current human-facing principles and
+runtime, package installation or hosted automation is required. This README owns
+the current human-facing principles and
 operating guidance; [AGENTS.md](AGENTS.md) remains this repository's agent entry
 point and owns its scope, preservation and security instructions. A task's grant
 and acceptance criteria determine what work may actually proceed.
@@ -300,11 +301,13 @@ do not prevent a willing maintainer from trying one already-needed bounded task.
 CODEOWNERS assignment is claimed. **Community Guidelines** are in that file and
 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
-**Local Development:** use the [task outline](#begin-one-useful-task) for ordinary
-work. The [contributing instructions](CONTRIBUTING.md#testing-conventions) provide
-pinned, isolated validation setup and commands. There is no compiled product or
-runtime installation. **Coding Style and Linters:** follow [the principles](#principles)
-and preserve the standard repolinter rules; presence checks do not verify content.
+**Local Development:** open the files in an ordinary editor and use the
+[task outline](#begin-one-useful-task) for one useful change. There is no build,
+dependency installation, executable validation stack or owned workflow.
+The [contributing instructions](CONTRIBUTING.md#testing-conventions) describe
+bounded document, metadata, link, preservation and security checks.
+**Coding Style and Linters:** follow [the principles](#principles), keep shared
+prose with one owner and review meaning separately from file presence.
 
 **Policies / Open Source Policy:** this project inherits the applicable
 [CMS Open Source Policy](https://github.com/CMSGov/cms-open-source-policy/blob/f4b95dfeaf823c7f28df7b3db89d75c6ce86dc30/Policy.md).
@@ -315,9 +318,10 @@ machinery is selected. Governance and Feedback use CMS OSPO and the public issue
 tracker described in COMMUNITY. The [current outbound route](REVIEW.md#human-outbound-review-packet)
 records the sole qualified-human review and OSPO approval selected for this candidate.
 
-**Software Bill of Materials:** no product dependency inventory is asserted.
-Validation-only dependencies are pinned in `tools/validation/package-lock.json`;
-`code.json` records SBOM as `None` using the schema's supported value.
+**Software Bill of Materials:** no application or validation dependency set is
+maintained. `code.json` records SBOM as `None` using the schema's supported value.
+The retained metadata schema and secret-pattern configuration are static inputs,
+not a validation runtime.
 
 ## Sources and licensing
 
@@ -347,6 +351,7 @@ and material adaptations are recorded in PROVENANCE.
 [The current human review packet](REVIEW.md#human-outbound-review-packet) records
 the Authority's lowest-risk route: the commissioning human is the sole qualified
 engineer reviewer and OSPO approver. Their completed disposition remains pending.
-After their approval, they publish and perform administrator/hosted follow-through.
+After their approval, they publish and perform applicable administrator actions.
+No owned automation remains for which hosted job results must be obtained.
 Earlier routing interpretations remain historical; the upstream checklist changes
 remain proposed.

@@ -1,6 +1,6 @@
 # How to Contribute
 
-Send documentation corrections, bounded proposals and validation-tool improvements
+Send documentation corrections, bounded proposals and task/recovery improvements
 to [Indelegible issues](https://github.com/DSACMS/indelegible/issues) or a pull
 request against `main`. Read the [README task outline](README.md#begin-one-useful-task),
 [LICENSE](LICENSE) and [Code of Conduct](CODE_OF_CONDUCT.md). Ask in an issue when
@@ -21,18 +21,16 @@ in [COMMUNITY.md](COMMUNITY.md); operating actors remain in
 
 ### Building dependencies
 
-Reading and using the guidance requires no installation. To validate changes,
-use Node.js 24 or later, npm and GitLeaks 8.30.1. Validation-only dependencies are
-locked in `tools/validation/package-lock.json`; install with `npm ci --prefix
-tools/validation --ignore-scripts --no-audit --no-fund`. This is a local isolated
-setup, not a global install. Review the dependency audit disposition in
-[REVIEW.md](REVIEW.md#tier2-local-preparation) before running the legacy linter.
+None are needed to read, use or edit the documentation. This repository contains
+no package manifest, executable validation stack or owned hosted workflow. Use an
+ordinary editor and existing tools appropriate to the authorized change; do not
+add a framework or run repository-generation hooks to check documentation.
 
 ### Building the Project
 
 There is no compiled product, package or deployment. Edit Markdown and the required
-policy/metadata artifacts, then run the validation below. Do not regenerate the
-repository, execute cookiecutter hooks, or alter historical witness bytes.
+policy/metadata artifacts, then check the result proportionately below. Preserve
+the historical original and frozen synthetic witness bytes.
 
 ### Workflow and Branching
 
@@ -45,32 +43,28 @@ this contribution process. GitHub enforcement is separate from these instruction
 
 ### Testing Conventions
 
-Run the relevant missing or invalidated checks on the actual candidate. This macOS
-Bash/zsh block captures the complete output and preserves failures:
+Inspect the required documents for meaningful project/policy content and the
+metadata for actual supplied facts. Check changed local links/anchors, original
+and frozen-example preservation, explicit staged scope and whitespace. When metadata
+changes, use the retained CMS schema with an available bounded validator; reuse
+prior schema evidence only while the document and schema remain unchanged.
 
-```sh
-(
-  set -o pipefail
-  (
-    npm ci --prefix tools/validation --ignore-scripts --no-audit --no-fund &&
-    node tools/validate.mjs &&
-    node tools/security.mjs content &&
-    git diff --check
-  ) 2>&1 | tee /dev/tty | pbcopy
-)
-```
+For authorized secret checks, an already installed scanner can inspect current
+content and final committed history using the retained `.github/.gitleaks.toml`.
+These are separate scopes; record version, configuration, candidate, available refs
+and actual outcome. This repository supplies no scanner installation, custom
+runtime or scheduled job. Do not turn an optional tool example into a dependency.
 
-`node tools/security.mjs history` scans committed history after the final local
-commit; it does not scan uncommitted content. Record candidate, tool versions,
-configuration, available refs and actual outcomes. A local pass does not establish
-human review, repository protection or hosted execution.
+Record relevant missing or invalidated checks in the task record. File presence,
+substantive review, schema compliance, secret scanning and human approval are
+different claims. No application build or product test suite applies here.
 
 ### Coding Style and Linters
 
 Follow the README's [readability principles](README.md#principles). Keep one owner
-for shared prose and link exact sections. The pinned Tier2 repolinter rules retain
-their levels; presence findings are separate from substantive review. Security
-analysis of validation code, schema checks and workflow checks have distinct results.
+for shared prose and link exact sections. There is no project linter to run.
+Review readable guidance, accurate facts and proportionate evidence; a missing
+template heading is not automatically a missing outcome.
 
 ### Writing Issues
 

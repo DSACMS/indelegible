@@ -15,15 +15,18 @@ Source and adaptation: [PROVENANCE.md](PROVENANCE.md#standard-policy-adaptation)
 
 ## Repository scope and maintenance
 
-Indelegible is repository guidance and validation tooling, not a deployed service.
+Indelegible is readable repository guidance, task/recovery conventions and synthetic
+evidence, with static metadata/schema and secret-pattern inputs. It has no deployed
+service, owned executable validator, package dependencies or hosted workflow.
 Report sensitive findings through the CMS channel above; do not post secrets,
 private operational material or exploit details in public issues. Consult the
 [official CMS vulnerability disclosure policy](https://www.cms.gov/about-cms/information-systems/privacy/vulnerability-disclosure-policy)
 for authorization, reporting and scope. Linking a policy is not permission to test
 third-party infrastructure; ask the policy's listed scope contact when uncertain.
 
-CMS OSPO owns triage and maintenance. The proposed hosted security workflow checks
-pushes, pull requests and a weekly schedule; locally run the security checks before
-publication. Hosted execution remains unverified until content is uploaded and
-Actions runs. Current local and institutional review status is in
+CMS OSPO owns triage and maintenance through the reporting route above. The
+three-business-day acknowledgement is the inherited CMS disclosure policy, not a
+new repository automation promise. Maintainers perform authorized, bounded document,
+privacy and secret checks with existing tools. No recurring scan or hosted execution
+is promised. Current local and human review status is in the
 [current human review packet](REVIEW.md#human-outbound-review-packet).

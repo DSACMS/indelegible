@@ -753,7 +753,11 @@ is retained. Only this closure disposition follows that freeze; new scoped check
 final history/ref evidence and exact hash substitution complete local closure.
 No institutional review, control change or hosted execution is inferred.
 
-## Human outbound review packet
+## Superseded toolchain-retention review packet
+
+Historical packet for `15e1f28ae61f3c7261a3f6ae31cfeddf171e76fb`. The human now
+selects documentation-only simplification. Earlier toolchain-retention, advisory
+acceptance and hosted-job expectations are superseded by the [current packet](#human-outbound-review-packet).
 
 ### Current route and review disposition
 
@@ -878,3 +882,114 @@ The original report is retained. Only closure/result prose follows that freeze;
 unchanged presence/navigation/source/metadata scopes are reused. Final staged
 content/whitespace and committed-history/ref gates bind local completion. This
 agent verdict does not supply the sole human review or OSPO approval.
+
+## Human outbound review packet
+
+### Documentation-only decision and scope
+
+Starting boundary: clean main `15e1f28ae61f3c7261a3f6ae31cfeddf171e76fb`.
+Git inspection confirms the consolidated product at `538a845` contained readable
+guidance, task/recovery conventions and synthetic evidence, with no owned executable
+runtime. Commit `ae86aa0` introduced the later validation stack. The human now
+selects removing that stack and its maintenance/dependency burden before publication.
+This supersedes their earlier selection to retain it; no advisory acceptance is
+requested again. It is one observed instance of harness burden and scope correction,
+not measured efficiency, attention savings or general effectiveness.
+
+The commissioning human remains Tier2 Authority, sole qualified human engineer
+reviewer, OSPO approver and repository administrator. Their documentation-only
+outbound route preserves substantive policies, settled CC0/original-distribution
+permission and supplied metadata facts. No additional reviewers or institutional
+approvers are required. Their actual review/OSPO disposition and publication remain
+future actions. Admin controls follow their push. No owned workflow remains, so no
+hosted result or deleted check context is a prerequisite or post-push obligation.
+
+Removed: both owned JavaScript validators; validation package manifest/lock,
+ESLint configuration and the inspected installed dependency directory; both
+hygiene/security workflows; repolinter rules; automated validation bindings; and
+obsolete setup commands/ignore entry. Only the identified repository installation
+was deleted; shared caches/global tools were untouched. No replacement framework,
+script, package manifest or service is committed.
+
+Retained for specific roles: the exact CMS schema/CC0 notice as the documentary
+metadata contract; generic GitLeaks patterns plus bundled defaults for direct checks
+with an installed scanner; the human-facing PR template; policy documents, code.json,
+LICENSE, original note, frozen witness and source attribution. These static inputs
+are not a runtime or scheduled automation. `.gitignore` retains only macOS metadata.
+
+The original 12 package-advisory entries (2 critical, 4 high, 6 moderate), six source
+warnings and eight optional presence warnings remain historical findings, with their
+actual triage/uncertainty preserved. Their affected dependency set is removed from
+the maintained tree; upstream packages were not repaired. No new audit was run and
+no clean vulnerability audit, complete safety or retrospective non-applicability
+is claimed. Earlier source-analysis results describe the removed code, not new
+assurance for this documentation candidate.
+
+### Current assurance and applicable requirements
+
+| Outcome | Actual alternative evidence / boundary |
+| --- | --- |
+| Required documents and meaningful content | Manually inspect LICENSE, README, CONTRIBUTING, COMMUNITY, SECURITY, CODE_OF_CONDUCT and code.json against the retained source requirements and selected route. Preserve actual project purpose, small-task instructions, four primitives, standard reporting/contribution terms and role attribution. Presence alone is not substantive approval. |
+| Metadata | Preserve all human-supplied facts and original creation time. Correct only derived longDescription/languages/update timestamp for current scope. A bounded one-off full CMS2.1.0/Draft2020-12 check with formats passed using already installed Ajv8.20.0/formats3.0.1 before deletion; final document/schema hashes reuse that exact result. No old custom validator, repolinter or audit was run. |
+| Navigation and history | Check live local links/anchors, scope/whitespace and exact original/frozen/source-notice bytes. Earlier reviews and executable history remain historical; do not change frozen packets to make links current. |
+| Secrets/privacy | Direct installed GitLeaks8.30.1 checks current Git-listed content and, after the final commit, all available non-shallow history with the unchanged DSACMS/default configuration and no exceptions. This is secret-pattern evidence, not a vulnerability audit or proof of privacy/safety. Manual content review remains distinct. |
+| Code/build/hosted applicability | No maintained executable application or validator, dependencies, build, product suite or owned workflow. Source-code analysis, package auditing and deleted hosted jobs do not apply as current execution paths. No absent job context should be required. Applicable repository security controls remain the human admin's post-push work. |
+| Review and publication | One fresh focused agent review checks the removal/proposal/assurance, not the qualified-human approval. The commissioning human reviews this new candidate and provides their sole engineer/OSPO disposition before their normal fast-forward push. |
+
+The [proposed checklist patch](proposals/tier2-checklist.patch) still targets
+repo-scaffolder `172e445ce022d98d06b457ca03a0a5cb8e4b1dad`, using the retained
+checklist bytes identical to baseline `14e2a01482084da7bc1a5aac825e2f1ea23e8529`.
+It now distinguishes assurance outcomes from possible tools and adds the explicit
+documentation-only mapping. Complete applied-source verification covers the code
+analysis, toolkit, history, hygiene/configuration and post-upload sections, including
+residual mandatory repolinter/workflow language. Appropriate executable-project
+routes remain available. Substantive policy obligations are not made universally
+optional. The patch stays proposed upstream; Indelegible's human disposition is
+adopted local authority. No source policy or libyears record is modified.
+
+### Human review and replacement publication handoff
+
+The old candidate-specific push block for `15e1f28ae61f3c7261a3f6ae31cfeddf171e76fb`
+is **INVALIDATED**. The existing `indelegible/tier2-local/publication-handoff.md`
+under the resolved Git directory is replaced with the new final full commit/tree,
+observed remote main and exact normal fast-forward block after local closure.
+Prior bytes are retained as historical evidence. New noncanonical records live in
+`indelegible/tier2-local/docs-only/`, verified excluded; local durability is not backup.
+
+The human reviews the final candidate's README, contribution/security/community
+policies, metadata/provenance and proposed checklist, with the bounded results
+above. First publication still exposes all ancestor history, including removed
+tooling, because both original histories are preserved. Record the actual candidate,
+scope/date, findings and engineer/OSPO approval or disapproval. The new route does
+not ask the human to accept the removed dependency chain for continued use.
+
+After approval the human may execute the replacement block. It pins main/clean
+state/HEAD/destination/observed base and both-root ancestry, stops on failure or
+changed boundaries, and verifies the remote result. No force, tags, submodule
+recursion or protection bypass is authorized. The agent does not execute it.
+
+After push, the human checks applicable repository security/alert settings and
+protects main against force/deletion with their selected ongoing review policy;
+sets description/topics from the current docs/metadata as appropriate; and verifies
+effective controls. Do not wait for the removed workflows or require their old
+contexts. Hosted evidence is needed only if future retained automation is actually
+applicable and separately selected. No inventory, announcement, tag or release is
+performed here. Any material scope/risk change requires reassessing the route.
+
+### Documentation-only local closure
+
+Removal inventory, original findings, candidate bindings, bounded checks, original
+agent review and final commit/history/ref evidence are retained locally under
+`indelegible/tier2-local/docs-only/`. Human approval, publication and admin execution
+are not inferred from local preparation.
+
+Fresh focused non-author review returned **Completed / APPROVE**, no material
+finding, for 36-file manifest SHA-256
+`c9ad14222cb28775e03478122e2bdde2743510d6f4cc233c4ff5d89472ba461f`.
+It inspected the actual 19-path delta, complete applied checklist and replacement
+handoff; verified 26 protected files and the final metadata/schema binding; and
+confirmed no replacement runtime or obsolete live job instructions. Original
+report retained. Bounded checks cover 135 local links and meaningful policy/content
+mapping; final staged content/whitespace and committed-history/ref gates bind the
+resulting commit in excluded completion evidence. Only closure prose follows the
+freeze; the actual human review/OSPO disposition remains pending.

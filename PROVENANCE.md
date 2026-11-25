@@ -180,8 +180,9 @@ The relevant template change is CODE_OF_CONDUCT.md: the current wording replaces
 the earlier list “gender, gender identity, expression” with “sex”. The current
 standard text and its Contributor Covenant/USDS/Justice40 credits are retained,
 without blending versions. Other inspected Tier0–2 rule/template inputs retain
-their source blob identities. Sources are bound in
-[the validation manifest](provenance/tools/validation-sources.json).
+their source blob identities. The historical validation manifest is preserved in
+Git at `15e1f28ae61f3c7261a3f6ae31cfeddf171e76fb`, path
+`provenance/tools/validation-sources.json`; it is not a current runtime input.
 
 CONTRIBUTING retains the current template's AI-use policy, CMS open-source contact,
 CC0 contribution terms and security-reporting policy. Project-specific setup and
@@ -229,18 +230,25 @@ by the schema; no product inventory is asserted. Empty associated-project values
 do not purport to reconstruct unreported programs. Metadata interpretation and
 required human attestations remain separate from JSON/schema validation.
 
-repolinter.json is the recursively merged current Tier0→Tier1→Tier2 ruleset with
-all 63 rule definitions/levels preserved. It runs fixed-path dry-run checks; no
+### Historical validation stack, now removed
+
+The following describes the earlier preparation, not current execution instructions.
+The human's [documentation-only disposition](REVIEW.md#human-outbound-review-packet)
+supersedes retaining that stack. Its source adaptations and findings remain in Git
+and excluded prior task evidence.
+
+repolinter.json was the recursively merged Tier0→Tier1→Tier2 ruleset with
+all 63 rule definitions/levels preserved. It ran fixed-path dry-run checks; no
 upstream first-run labels, configuration overwrite or PAT/PR-writing hooks are
-installed. SECURITY and the generic six DSACMS secret patterns come from current
+installed. SECURITY and the generic six DSACMS secret patterns came from the inspected
 Tier2. GitLeaks bundled defaults remain enabled and source pattern IDs are prefixed
 to avoid replacing a built-in rule. No ignore file, rule-wide suppression or
 libyears exception is introduced. Source statements and raw acquisition/failed
 attempts stay in excluded task evidence; published files contain no operational
 handoffs or trust inputs.
 
-Validation-only packages are pinned with a lockfile and lifecycle hooks disabled;
-they are not an Indelegible runtime. The installed interfaces were inspected before
+Validation-only packages were pinned with a lockfile and lifecycle hooks disabled.
+The installed interfaces were inspected before
 commands were prepared. Initial Python TLS acquisition failed; system curl with
 normal verified TLS succeeded, without bypass or trust discovery. An initial
 capture-path collision was corrected by distinct overview/project locations while
@@ -250,8 +258,29 @@ Legacy repolinter dependency advisories and actual source-analysis findings are
 retained and triaged in [the task record](REVIEW.md#tier2-local-preparation), not
 hidden behind a presence-check pass.
 
-The [upstream checklist patch](proposals/tier2-checklist.patch) is proposed only,
-against the current scaffolder revision above. It is not a competing institutional
-checklist. Local T1/T3/T4/T5/T7/T8 clarifications are implemented through sources,
-separate checks, safe setup and actual read-only workflows; qualified review and
-external policy authority are preserved.
+### Current documentation-only disposition
+
+The human removes the owned JavaScript validation scripts, npm manifests/lock,
+ESLint configuration, installed dependencies, repolinter configuration, automated
+bindings and both hosted workflows. This removes that dependency set from the
+maintained tree; it does not repair upstream packages or erase the historical
+12-entry audit, six source warnings or eight optional presence warnings. No clean
+vulnerability-audit claim follows from removal.
+
+The exact CMS schema and its CC0 notice remain as the documentary metadata contract.
+The existing GitLeaks configuration remains for direct bounded checks with an
+installed scanner, retaining the same six patterns plus defaults and no exceptions.
+Neither input installs software or schedules execution. The human-facing PR
+template and all source notices remain. No replacement framework is introduced.
+
+Metadata scope/languages are corrected to documentation and static JSON/TOML;
+all human-supplied facts and the original creation timestamp are preserved. A
+one-off full CMS2.1.0 schema check with already installed Ajv8.20.0/formats3.0.1
+passed before that installation was removed. Its document/schema hashes bind the
+unchanged final metadata; no old custom script, repolinter or audit was rerun.
+
+The [upstream checklist patch](proposals/tier2-checklist.patch) remains proposed
+against the exact scaffolder revision above. It now separates assurance outcomes
+from optional tools and provides documentation-only mappings without waiving
+substantive policies. Indelegible's adopted human route remains sole qualified
+human review/OSPO approval, human publication, then applicable admin actions.

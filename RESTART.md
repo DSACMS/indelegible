@@ -1,37 +1,34 @@
-# Sole human review and publication
+# Documentation-only human review and publication
 
-The [current human review packet](REVIEW.md#human-outbound-review-packet) owns the
-outbound route. The commissioning human explicitly confirms they are the qualified
-engineer reviewer, Tier2 Authority, OSPO approver and repository administrator.
-Their lowest-risk assessment (no CMS integration, no PII/PHI, bounded documented
-scope) selects one qualified human review—their own—and OSPO approval. No other
-reviewer or institutional approver is required. Earlier multi-reviewer/routing and
-pre-push admin blockers remain historical and are superseded, not open tasks.
+The [current packet](REVIEW.md#human-outbound-review-packet) records the human's
+documentation-only route. Indelegible maintains guidance, task/recovery conventions,
+synthetic evidence, policies and static metadata/configuration. The introduced
+JavaScript/npm/linter stack, installed dependencies and both workflows are removed;
+no replacement runtime/framework is provided. The retained schema/notice and
+GitLeaks patterns have explicit documentary/bounded-check roles in PROVENANCE.
 
-Awaiting: **the human's completed exact-candidate review and OSPO disposition**,
-including the retained findings. Authority/route selection is not completed review.
-After approval, the human publishes, performs admin actions after push and observes
-the actual hosted checks. No separate pre-push admin or unuploaded-job gate is added.
-Technical rejection still stops publication; no protection bypass is authorized.
+The commissioning human remains Tier2 Authority, sole qualified human engineer
+reviewer, OSPO approver and repository admin. No additional reviewer or institutional
+approver is required. Settled rights and supplied metadata facts are preserved.
+Awaiting: their actual review/OSPO disposition of this **new** candidate, then their
+publication and applicable post-push admin actions. No deleted workflow result or
+check context is required. Material scope/risk changes require reassessment.
 
-The final full commit/tree, exact observed remote base, intended published history
-and copy/paste normal fast-forward command are in the existing
-`indelegible/tier2-local/publication-handoff.md` beneath the resolved Git directory.
-The updated handoff is for use **after the human's approval**, not agent execution.
-Risk-route closure evidence binds the final commit/checks; prior handoffs remain
-preserved historical copies. Exclusion is verified; local durability is not backup.
+The old push block for `15e1f28ae61f3c7261a3f6ae31cfeddf171e76fb` is INVALIDATED.
+Use only the replacement existing `indelegible/tier2-local/publication-handoff.md`
+beneath the resolved Git directory: it binds the final full commit/tree, observed
+remote main and normal fast-forward procedure for the human after approval.
+Prior handoffs/findings remain historical. Excluded `docs-only/` evidence binds
+the removal, checks and final history/ref gate; local durability is not backup.
 
-Settled CC0, historical-original distribution and metadata facts retain their
-[human attribution](REVIEW.md#tier2-local-preparation). The current toolchain is
-unchanged: 12 advisory entries (2 critical, 4 high, 6 moderate), six source warnings
-and eight optional presence warnings remain for the sole human's disposition.
-Original use-path triage remains visible; no audit refresh, remediation, replacement,
-harmlessness claim or separate security approval is invented.
+Historical audit12 (2 critical/4 high/6 moderate), six source warnings and eight
+optional presence warnings are not repaired or erased. The associated dependency
+set is absent from the current maintained tree. No new audit or safety claim is
+made, and the superseded toolchain-acceptance question is not an open task.
 
-Next action: the commissioning human reviews the bound candidate and records their
-review/OSPO decision. If approved, they execute the handoff, then record admin
-controls and exact-SHA hygiene/security results using the packet's short list.
-More extensive routes remain available for different risk; material scope/risk
-change requires reassessment. The proposed upstream patch is not adopted external
-policy. No upstream/libyears work, settings change, push, workflow trigger, tag,
+Next: the human reads the new packet and final reading list, records their
+engineer/OSPO decision and, if approved, runs the replacement block. After push,
+verify applicable alert/security settings and main protections, using no absent
+workflow contexts. There are no owned hosted jobs to await. No new study, upstream
+submission, libyears work, setting change, push, manual workflow trigger, tag,
 release, announcement or inventory submission occurs here. Push performed: NO.

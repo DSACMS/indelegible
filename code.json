@@ -1,7 +1,7 @@
 {
   "name": "Indelegible",
   "description": "Readable repository guidance for understanding, directing and continuing agent-assisted software work.",
-  "longDescription": "Indelegible is an experimental documentation harness for maintainers, contributors and people directing agent-assisted software work. It preserves human context as understanding, agency and continuity through a task outline, bounded authority, proportionate review, durable evidence and recovery questions. Validation tooling checks repository hygiene, metadata, workflows and security; it is not an automated development runtime.",
+  "longDescription": "Indelegible is an experimental documentation harness for maintainers, contributors and people directing agent-assisted software work. It preserves human context as understanding, agency and continuity through readable guidance, a short task outline, bounded authority, proportionate review, durable evidence and recovery questions. Synthetic examples illustrate narrow recovery findings. Reading and using the harness requires no runtime, package installation or hosted automation.",
   "status": "Development",
   "permissions": {
     "licenses": [
@@ -32,9 +32,8 @@
   "softwareType": "configurationFiles",
   "languages": [
     "Markdown",
-    "JavaScript",
     "JSON",
-    "YAML"
+    "TOML"
   ],
   "maintenance": "internal",
   "contractNumber": [
@@ -43,7 +42,7 @@
   "SBOM": "None",
   "date": {
     "created": "2026-11-25T12:21:25-05:00",
-    "metadataLastUpdated": "2026-11-25T18:51:03Z"
+    "metadataLastUpdated": "2026-11-25T20:05:13Z"
   },
   "tags": [
     "agent-assisted-development",
