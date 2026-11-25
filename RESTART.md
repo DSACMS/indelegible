@@ -1,31 +1,33 @@
-# Initial slice: restart here
+# Current manifesto: restart here
 
-The human authorized a standalone experimental documentation starter, adapted
-synthetic case, one read-only recovery witness, independent evaluation/review,
-local checks and local commits. Network, publication and automated runtime work
-were excluded. Deeper libyears SBOM/export work is tabled.
+The human authorized the current editorial task: preserve the supplied original,
+assess it against bounded read-only libyears evidence, write a current manifesto,
+align README/guidance, obtain one independent review, verify and commit locally.
+No network, build, external-target work, source changes or publication is granted.
+The original initial slice remains historical at
+`e6987dc8646c1f84302b806a39a0c34730ad035d`; its first-use evidence is unchanged.
 
-Acceptance: usable short guidance, attributed source boundaries, frozen synthetic
-criteria, unchanged first response, endpoint integrity, independent evaluation and
-instruction review, local checks and explicit scoped commits. That evidence is
-owned by the linked first-use and review records.
+Completed editorial scope: [MANIFESTO.md](MANIFESTO.md), aligned README/GUIDE, updated provenance,
+[historical original](history/human-legible-agentic-software-development.md) and
+[editorial rationale/review](REVIEW.md#manifesto-editorial-task). Original-byte
+preservation passed on relocation and candidate recheck. One fresh independent
+review completed APPROVE without material findings. Original bytes, links,
+whitespace, preserved history/provenance, privacy and current-content security
+checks pass. The complete staged diff and final committed-history check belong to
+the local closure records; no build, product-suite or hosted execution is claimed.
+Noncanonical candidate/check/review/completion evidence lives in
+`indelegible/manifesto/` beneath this checkout's resolved Git directory, excluded
+from tracking. The exact final commit will be bound there without a self-referential
+commit identifier in this file.
 
-Current scope: README, working instructions, one task guide, portable recovery
-starter, source provenance/license notice, fictional case and its first-use
-record. The [first-use record](examples/recovery/README.md) and
-[review](REVIEW.md) identify completed checks and remaining limits. The initial
-commit is the commit introducing this file; the repository-associated completion
-record additionally binds its exact hash. No hosted verification is claimed.
+Unresolved human decisions: project-wide license, rights/licensing for distribution
+of the supplied original, and any publication grant. No runtime, Skill/plugin or
+broader framework is selected. Source run 007-0062 remains historical provenance;
+source-ledger reconciliation is separate libyears work, not a destination blocker.
+Real-task usefulness and net attention/coordination burden remain unmeasured.
 
-Unresolved: project license selection; the exact original exploratory working
-note is unavailable; real-task usefulness and coordination burden are unmeasured.
-No reader, agent runtime, Skill/plugin or broader framework is selected.
-
-**One next useful task:** have one willing maintainer walk through the starter
-with a small task they already need to do, then record only confusing ownership,
-missing context and unnecessary ceremony. This needs a new bounded task grant,
-including any actual edits/access/review; it is not started by this restart note.
-Do not manufacture unpaid evaluation work or require premium model access.
-
-Stop at human selection of that task or another explicit decision. Publication
-and any destination license choice remain human decisions.
+**One next useful task:** a willing maintainer uses the guide for one small change
+they already need, noting only missing context, confusing ownership and unnecessary
+ceremony. Select that task and its bounded access/edit/review grant first. Do not
+manufacture unpaid evaluation work or require premium model access. This note
+starts no experiment and grants no task or publication.

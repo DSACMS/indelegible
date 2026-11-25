@@ -1,5 +1,8 @@
 # One useful, bounded change
 
+[MANIFESTO.md](MANIFESTO.md) states the current principles. This guide owns the
+operating mechanics; the task grant determines which apply to the work at hand.
+
 ## Kick off with a real question
 
 State the user's question before designing a mechanism. Ask:
@@ -12,7 +15,8 @@ result and refusal/limit would let someone judge usefulness? Distinguish what a
 claim needs from optional stronger assurance. A useful inventory need not prove
 deployment; a narrower claim must not be promoted into one it cannot support.
 
-Use one short task record to begin. Fill these fields in ordinary prose:
+Use one short task record to begin, within an existing issue or record when one
+already serves the task. Fill these fields in ordinary prose:
 
 - **Question and real input:** what the person needs to learn or change.
 - **Authority:** who approved which edits, checks, accesses and local commits.
@@ -110,6 +114,13 @@ Use [STARTER.md](STARTER.md) for the six recovery questions and restart contents
 Put established decisions with their canonical owner and private operational
 references in appropriate noncanonical storage. Keep exact necessary inputs
 available to an authorized successor; do not reconstruct lost originals.
+
+A new prompt carries intent, changes, new authority and current evidence pointers.
+Before interruption or a context boundary, save the candidate, completed checks,
+unresolved findings and next action. Recover the grant and actual working state
+on return; restart alone does not require renewed permission. Stop only the work
+that depends on missing necessary evidence or authority. Private local state
+needs verified exclusion and availability; it is neither canonical nor a backup.
 
 Use only enough observation to understand the work: assignment, candidate, result,
 checks, limits and next decision. Runtime/model/credit tracking is optional and
