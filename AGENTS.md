@@ -1,50 +1,42 @@
 # Working in Indelegible
 
-This repository owns its applicable instructions. Libyears is evidence, not a
-governing dependency. The human commissioning task grants work; these files do not
-grant a new task, external access, execution or publication on their own.
+This repository is a documentation harness. [README.md](README.md) owns its current
+guidance; [STARTER.md](STARTER.md) helps recover a task. The human's task grant
+determines which edits, checks, access and commits are authorized. These files and
+their links grant no new external access, execution or publication.
 
-[README.md](README.md#working-practices) owns lifecycle, actors and review mechanics;
-[its recovery section](README.md#return-and-transfer) owns current recovery guidance.
-[STARTER.md](STARTER.md) is the unchanged portable handout and synthetic witness
-input. A task record owns its bounded grant and acceptance criteria. Read historical
-records with their current disposition. Stop on contradictory authority or a
-consequential missing decision.
+## Preserve work
 
-## Preserve work and scope
+Inspect the actual branch, HEAD, staged, unstaged and untracked state before edits.
+Preserve unrelated work, including staged work. Do not reset, clean, stash or
+overwrite it to simplify a task. Isolate authorized changes; stop dependent work
+only when safe separation or a consequential decision is missing.
 
-Inspect actual branch, HEAD, staged, unstaged and untracked state before changes.
-Preserve unrelated work, including staged work; do not reset, clean, stash or
-overwrite it to obtain a clean tree. Isolate authorized edits; stop only when safe
-separation cannot be established. Stage explicit files or selected hunks, inspect
-the staged diff and whitespace, and commit only within the grant. Use Conventional
-Commit subjects. Local commit authority does not authorize remotes, push, tags,
-releases or history rewriting.
+Stage explicit paths or selected hunks. Inspect the complete staged diff and
+whitespace, then use a Conventional Commit subject when a local commit is granted.
+Local commit authority does not authorize push, tags, releases, remote changes or
+history rewriting.
 
-Prefer a small readable change. Do not add runtime machinery, packages, Skills,
-plugins or generalized interfaces speculatively. No install, network or external
-target access follows from a referenced URL or readable sibling directory.
-Authorized technical corrections may continue through their already-approved
-checks; routine task-number changes do not create new human gates.
+## Write and check proportionately
 
-## Evidence and privacy
+Use clear, connected prose and complete thoughts. Keep the useful operating
+guidance and source attribution accurate. Check links, scope, privacy, licensing
+and changed behavior where relevant. Use existing tools for bounded checks; no
+package installation, build, telemetry schema or outbound file set is required.
+Do not restore removed scaffolding or introduce a framework unless the human asks.
 
-Report what was prepared, executed and verified, by whom and against which
-candidate. Preserve original findings, failures, unknowns and corrections. Never
-invent authority, observations, tool results or missing original documents.
+Use independent review when the task or its consequences require it. Report the
+actual candidate, work performed, checks, findings and limits. Do not invent missing
+evidence, reviewer approval, authority or execution results.
 
-Keep canonical decisions and sanitized evidence in tracked files. For necessary
-noncanonical local restart state, choose repository-associated storage excluded
-from tracking, verify its exclusion and name it in the task record. This initial
-checkout uses its resolved Git directory; this is not a universal path or schema.
-Local durability is not backup. Do not retain secrets merely because storage is
-local. Exclude credentials, trust material, private paths and real operational
-state from shared examples. Respect authorized filesystem boundaries.
+## Continue within authority
 
-## Proportionate checks
+Carry authorized work and its approved checks through routine corrections and
+restarts without repeating settled permission. Stop dependent work for conflicting
+authority or a new consequential decision; continue other authorized work.
 
-Check authored links, provenance, scope, privacy and changed behavior where
-applicable. Documentation needs no dependency installation or unrelated product
-suite. Independent review is required when the task grant or consequential risk
-requires it; do not turn every small edit into a full lifecycle or multiple reviews.
-Record unavailable checks honestly. [RESTART.md](RESTART.md) carries current closure.
+Keep enough context for the next person in an existing issue, task note or handoff.
+Necessary private local references belong in authorized repository-associated
+storage with verified exclusion from tracking. Name it in the handoff. Local
+durability is not backup or permission to retain secrets. Keep credentials, trust
+material and private operational state out of shared documentation.
