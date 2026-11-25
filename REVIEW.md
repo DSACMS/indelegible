@@ -372,3 +372,195 @@ institutional review or hosted execution. Full explicit-path staged-diff evidenc
 final committed-history scan and actual remote-ref comparison will be bound in
 local completion records after the documentation commit. No push, policy adoption,
 settings change or further task follows from local approval.
+
+## Tier2 local preparation
+
+The commissioning human confirms they are the Tier2 Authority, authorizes CC0
+distribution of the supplied historical note, and directs inheritance of applicable
+verified standard DSACMS policies. These attributed decisions settle the prior
+identity/permission questions for this task. They do not invent sole authorship,
+signed instruments, qualified-review waivers or completed institutional checks.
+The same human supplies: owner CMS OSPO; internal maintenance; FISMA Low; group
+CMS/OHTP/OSPG; laborHours 10; contract number 0; related system libyears; AI inventory
+ID 0. Representation follows the actual schema, including contractNumber `["0"]`.
+
+Starting clean main was `d727667c7cbac13c4d4ab3de700536880c3e18d3`, origin
+`https://github.com/DSACMS/indelegible.git`. Actual remote main still advertised
+`684c91de745880d385cc3a77bc76670d8fd435d7`. Both histories were already integrated;
+no integration was repeated. This task authorizes required files, direct metadata
+preparation, scoped pinned validation setup, read-only local workflows, exact
+proposed upstream corrections, one fresh agent review, checks and local commits.
+No hooks, credentials, settings changes, workflow triggers, push, release, tags,
+announcements or inventory submission are authorized.
+
+Canonical policy/source details are in [PROVENANCE.md](PROVENANCE.md#standard-policy-adaptation).
+The pinned current checklist is byte-identical to the earlier baseline; the current
+conduct template's protected-characteristics wording changed and is retained as
+current, without blending versions. The root LICENSE, original note, prior reviews,
+source inventories and frozen recovery artifacts retain their bytes. Raw source
+captures, failed attempts, exact candidate/check bindings and review reports are
+in `indelegible/tier2-local/` under this checkout's resolved Git directory, verified
+excluded from tracking. Local durability is not backup; no observation ledger or
+unavailable model/runtime/credit telemetry is introduced.
+
+### Implemented files and local clarifications
+
+| Artifact / owner | Concrete preparation and validation boundary |
+| --- | --- |
+| README | Main human-facing guide retained; meaningful required project/agency/team context, contribution/policy pointers and settled CC0 permission. Team purpose is project-specific, not an invented internal charter. |
+| CONTRIBUTING | Actual local setup/checks, short-lived main-based PR process, current standard AI disclosure and public-domain contribution terms; no invented internal synchronization or release process. |
+| COMMUNITY / CODE_OF_CONDUCT / SECURITY | Human-supplied office ownership, verified standard contacts, current conduct and community credits/guidelines, CMS-specific disclosure channel and scope; no named GitHub owner or qualified reviewer invented. |
+| code.json | Real known facts and human-supplied inventory values; CMS schema parsing/compliance and factual checks are distinct. Clone count omitted because it was not observed and the schema permits omission, despite the documentation's combined required-metrics row. It is not recorded as zero. Labor10 is human-supplied, not a measured SCC result. |
+| repolinter.json | Exact merged current Tier0→Tier1→Tier2 rules, 63 definitions/levels, no inherited mutable extends; dry-run only. This establishes file/section checks, not factual approval. |
+| Validation tools / source manifest / schema | Locked local dependencies, supported tool interfaces, vendored exact CMS schema plus CC0 notice, provenance bindings, offline JSON/schema/fact/navigation/workflow checks and source-security analysis. No generator or creation hook runs. |
+| .github/workflows | Read-only hygiene and security jobs with supported SHA-pinned checkout/setup-node, credential persistence disabled, scanner version/checksum verified; push/PR/manual plus weekly security schedule. Output is job logs, no PAT, labels, configuration overwrite, issue/PR writing or product matrix. |
+
+T1, T3, T4, T5, T7 and T8 are implemented locally as versioned source/evidence
+bindings, separate validation categories, actual workflow locations/log outputs/
+permissions, direct existing-repository metadata preparation, preserved history
+and reusable accurately scoped security evidence. T2 phases are explicit below;
+T6 metadata is prepared and schema-checked with unavailable facts disclosed. T9's
+qualified-engineer requirement is preserved. T10 retains required files and gives
+shared prose one owner; optional DCO, auto-release, website and package machinery
+remain absent. These local clarifications do not publish or amend upstream policy.
+
+The exact [proposed upstream patch](proposals/tier2-checklist.patch) targets
+repo-scaffolder `172e445ce022d98d06b457ca03a0a5cb8e4b1dad`, `tier2/checklist.md`.
+It implements the previously recorded T1–T10 wording corrections against actual
+current bytes, including the incorrect tier1 configuration pointer, workflow
+location/output assumptions and unsafe existing-repository generator instructions.
+A local apply check uses a captured source copy; no upstream file is edited.
+The patch is a proposal artifact, not another canonical institutional checklist.
+
+### Validation results and finding disposition
+
+Results are bound to exact files/check runs in excluded local records. The installed
+local tools include Node26/npm11; workflows prepare Node24. Supported versions and
+configuration do not establish actual hosted execution or environment parity.
+
+| Category | Local result / limit |
+| --- | --- |
+| Required file/section presence | Prepared actual required files; the initial fixed-path repolinter dry-run found no required error, eight optional content warnings and missing optional Linguist/Licensee axioms. No optional warning was converted into a mandatory document or fabricated roster. |
+| Substantive project/policy content | Source adaptation and supplied facts are reviewable in actual files. Policy/rights decisions are attributed; qualified human review remains required. Agent review is separate. |
+| Metadata | Actual CMS2.1.0/Draft2020-12 schema with formats passed. Factual assertions are checked separately against supplied/verified values. A negative control rejects string laborHours. Omitted clone traffic and human-estimated labor are disclosed rather than certified as measured. |
+| Workflow/configuration | Actual YAML parses with duplicate-key checking; inputs/actions/triggers/read-only permissions are inspected. Resolved rule/source hashes are bound. No hosted jobs or settings changes occurred. |
+| Source security analysis | The initial ESLint/plugin mismatch did not execute a valid audit; corrected pinned versions complete analysis with zero errors and six warnings. Filesystem-path warnings remain visible and are triaged below; no rule suppression is installed. |
+| Current-content scanning | Run separately with actual DSACMS generic patterns plus built-in rules, exact GitLeaks8.30.1, regular repository-file snapshot and no exceptions. Prepared-candidate scan passed with no findings; the final content check is recorded at closure. |
+| Committed-history scanning | Final local gate runs after the final commit over all available non-shallow refs with actual configuration. A checkout scan or earlier passing revision cannot substitute. |
+| Dependency audit | The corrected tool tree still reports 12 advisory package entries (2critical/4high/6moderate), rooted in legacy repolinter. It is not reported clean; retained details and use-path triage follow. |
+| Human / configuration / hosted | No qualified-engineer approval, institutional risk sign-off, enforced branch/alert configuration or hosted result is inferred from these local checks. |
+
+Original local findings remain retained: missing not-yet-authored policy/task
+anchors caused the first integrated navigation check to fail; those records are
+now present. The earlier incompatible ESLint plugin run failed without coverage
+and was replaced by a valid supported pairing, not relabeled a pass. Tool-capture
+path collisions and initial TLS failures are acquisition issues, not product bugs.
+
+ESLint's non-literal filesystem warnings identify repository validation paths.
+Content scanning takes only Git-listed regular files, checks repository/snapshot
+containment, and writes only a disposable snapshot. Navigation validation checks
+regular-file and real-path containment before reading. Commands use fixed
+executables/argument arrays with no shell. These checks are not an adversarial
+filesystem-safety proof; reviewer inspection and retained warnings remain evidence.
+
+The dependency audit's 12 package entries comprise simple-git and its argv parser,
+broken-link-checker, repolinter and the legacy URL-checking stack (bhttp, form-data2,
+robot-directives, robots-txt-guard, tmp, tough-cookie, useragent and uuid). Inspecting
+the installed CLI locates cloning behind `argv.git`; the owned invocation never
+sets it. All selected rules are file-existence/file-contents; the network/broken-link
+rule is not selected. Installation disables lifecycle hooks, execution uses a
+fixed local path/dry-run, and hosted permissions are read-only without persisted
+credentials. These controls constrain actual use, without claiming the packages
+are patched or dismissing their advisories. The qualified security reviewers must
+assess this exact lockfile/use-path disposition or require remediation before
+institutional approval. No scanner exception, force downgrade or audit suppression
+is used to manufacture a clean result.
+
+### Controls, human review and publication handoff
+
+Public API observations: repository public, default main at the recorded root,
+issues enabled, description/homepage empty and topics empty; main reports
+`protected: false`, and public rulesets return an empty array. Security/analysis
+fields were not exposed. Actions-permissions read returned401; no credential
+search or authenticated retry was attempted. Unavailable fields do not establish
+that alerts or Actions are disabled.
+
+The verified CMS policy has obligations beyond the Tier2 checklist. The Tier2
+Authority must record the applicable ISSO, ISG technical and business-owner routing
+named in the checklist, and the policy's TRB license approval/OGC review routing.
+This concerns institutional evidence, not another choice of license: CC0 and the
+historical-note permission are settled. Risk attestations cover privacy/internal
+systems/credentials, national-security/intelligence/FOIA exclusions, export and
+other regulatory restrictions; no boxes are checked on the human's behalf.
+
+The policy also calls for an existing public-facing project information page,
+sustaining/community staffing, and automated tests/build scripts while linking
+Tier3 guidance. This candidate supplies repository guidance, validation scripts,
+a schema negative control and prepared CI, not a compiled product or an invented
+website/staff roster. The Authority must record how those policy clauses apply to
+this Tier2 documentation/validation harness: identify the existing public page and
+staffing basis, and confirm adequate test/build coverage or obtain the responsible
+policy owner's scoped disposition. A Tier2 selection or documentation scope alone
+does not waive a broader policy obligation. This finite applicability/routing
+question remains isolated from completed local preparation; no policy is amended.
+
+| Phase / actor | Exact next action and required evidence |
+| --- | --- |
+| Qualified review — Tier2 Authority appoints two independent engineers | Review the exact committed candidate/history and local evidence, including policies, metadata, tool source/lockfile/advisory use paths and privacy. Record names, organizations, production-language experience within two years, independence, scope, comments and approval/disapproval. No waiver is assumed. |
+| Institutional disposition — Tier2 Authority | Record the retained checklist's risk/security/privacy/regulatory attestations and applicable sign-off routing with evidence or explicit not-required disposition. Authority identity and chosen CC0 terms are already settled, not questions to ask again. |
+| Controls before publication — repository admin with Tier2 Authority | Protect actual main against force/deletion and apply approved PR/check controls; verify applicable Dependabot/secret scanning settings and allowed actions. Resolve whether the initial normal fast-forward publication is permitted under those controls or must use a separately authorized PR path; never bypass protection or require an unuploaded workflow to have run. Record actual control evidence. |
+| Public details — repository admin | Set description to README's project description and topics from metadata as appropriate. No homepage, package or deployment is invented. No settings are changed here. |
+| Publication — human after prior prerequisites and a separate grant | Use only the exact reviewed commit, clean state, verified origin and observed remote main, with normal fast-forward/no tags/no submodule recursion. If any ref/precondition or push fails, stop and report actual state; do not force, rewrite or retry into new scope. |
+| Uploaded-candidate evidence — Actions and named observer | After authorized content upload, record exact candidate and actual hygiene/security log results, scanner version/config/history scope and any extra hosted refs/skips. A weekly schedule is prepared, not claimed to have executed. |
+| Inventory/rollout — CMS OSPO | Submit metadata and approved communications only under separate authorization; do not infer an inventory receipt or announcement from code.json existence. |
+
+The exact human publication block will be bound to final HEAD and the final remote
+observation in excluded local handoff evidence. It remains explicitly blocked by
+qualified/institutional review, controls and publication authority; it is not cleared
+by the local agent review. If controls require a PR path, do not use that main-push
+block. No integration, policy source or observation ledger is repeated/imported.
+
+### Local agent review and closure
+
+One fresh non-author agent inspected the actual 45-file candidate, baseline,
+captured sources, metadata, workflows, patch and retained check outputs. The
+original manifest SHA-256 is
+`5e1c12780c0e11d630b084e71a45bbc0fd1dd20f29cbcafcc4e389c73bae2b70`.
+Original verdict: **Completed / REVISE**. A1, raised by the author and independently
+confirmed, identified three residual checklist instructions contradicting the
+proposed T2/T4 corrections: a required dev branch, branching plans after publication,
+and mandatory use of an unrelated metrics workflow.
+
+The bounded correction replaces those exact residuals: protect approved actual
+branches, plan controls/bootstrap before publication, and use approved owned jobs
+and their actual outputs. The same reviewer independently checked all focused
+candidate hashes, confirmed only the proposed patch changed and verified all seven
+patch contexts against the captured source. Focused manifest SHA-256:
+`10eb38a7a5ad5468b60cf9949b99d0709b821354ded3431dc7a78a458698a515`.
+Focused verdict: **Completed / APPROVE**, A1 resolved; no other material finding.
+The original report remains retained unchanged beside the focused report. This is
+one logical reviewer context with focused follow-through, shared filesystem access
+and no enforced isolation; no reviewer fan-out or unavailable telemetry is claimed.
+
+Schema/facts/navigation/workflows passed (111 local links), source-security analysis
+completed with zero errors/six triaged filesystem warnings, current-content GitLeaks
+passed, patch apply check passed, and an unsupported security mode was refused
+nonzero. Presence scope files/rules are unchanged since the valid dry-run (zero
+required errors/eight optional warnings/two missing optional axioms); the dependency
+audit is bound to the unchanged corrected lockfile and retains 12 advisory entries.
+Valid unchanged checks are carried, not repeatedly rerun. The complete staged
+whitespace gate additionally found blank unified-diff context prefixes in the new
+proposal file. Its formatting was normalized; applying the original and corrected
+patches produces byte-identical complete source results, with the original finding
+retained. Closure otherwise changes only review/restart dispositions; navigation,
+current content, preservation and staged-diff checks bind the final candidate.
+The required final committed-history
+gate and remote-ref observation bind the resulting commit in excluded completion
+evidence, avoiding a self-referential commit identifier in this record.
+
+The reviewer also inspected the explicitly blocked publication template and its
+ref/state/failure boundaries. The final handoff substitutes only the actual commit,
+then receives Bash/zsh syntax checks without execution. Local preparation is
+complete subject to those closure gates; publication remains blocked by the finite
+human/configuration requirements above. Agent approval is not institutional
+qualified-engineer review, dependency-risk acceptance or permission to publish.

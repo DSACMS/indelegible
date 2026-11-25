@@ -1,0 +1,114 @@
+{
+  "scaffolderRevision": "172e445ce022d98d06b457ca03a0a5cb8e4b1dad",
+  "priorScaffolderRevision": "14e2a01482084da7bc1a5aac825e2f1ea23e8529",
+  "checklistSha256": "144144230f7cdf1dfd94bace288d8857085870b4aa17d6f509bca17368528c77",
+  "cmsPolicyRevision": "f4b95dfeaf823c7f28df7b3db89d75c6ce86dc30",
+  "cmsSchema": {
+    "url": "https://raw.githubusercontent.com/DSACMS/gov-codejson/06c7d5083f7dd7ecef0240fb7baa7453662fd583/schemas/cms/schema-2.1.0.json",
+    "revision": "06c7d5083f7dd7ecef0240fb7baa7453662fd583",
+    "sha256": "8b42cd665483408df8711e6d1376377a37f8aad19882e316378e3cb931ad51e7",
+    "licenseSha256": "6d489af6292662d9e36d34ce49423784984a5f6e41d7b58f49b01264df59fa03"
+  },
+  "repolinter": {
+    "version": "0.12.0",
+    "resolvedSha256": "f33f638f9796821437323dffe01a4c2e84bf02b67f7369e64cbb4dca05d38fba",
+    "inheritance": "tier0 -> tier1 -> tier2; all63 rule definitions/levels preserved; execute dryRun only"
+  },
+  "actions": {
+    "checkout": "actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+    "setupNode": "actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38"
+  },
+  "gitleaks": {
+    "version": "8.30.1",
+    "linuxX64Sha256": "551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb",
+    "configuration": "Tier2 generic patterns plus bundled defaults; no exceptions",
+    "configSha256": "d18c8df30ce9e97b0f24e90e48e19abd31d268218e117292fbea0c3330078d2a"
+  },
+  "templates": [
+    {
+      "source_path": "LICENSE",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "source_path": "tier2/README.md",
+      "sha256": "557c860bb9269b88e67e558b5c5620d15184ef7ceb38fcbf04126a16596b1e75"
+    },
+    {
+      "source_path": "tier2/cookiecutter.json",
+      "sha256": "90c954e359521cb18abcde0f15b46ac792519149ec194c37676a47bf1f7dd015"
+    },
+    {
+      "source_path": "tier2/hooks/post_gen_project.py",
+      "sha256": "a9eab29cf9af21d857c5f2c4767750f2b7aa084230fe41100f2460c2acd96fe5"
+    },
+    {
+      "source_path": "tier2/{{cookiecutter.project_slug}}/.github/codejson/hooks/post_gen_project.py",
+      "sha256": "e02c4869066ed65b76d66d3fb7c409f9283ec5eff79b992b11a080cdff1fef04"
+    },
+    {
+      "source_path": "tier2/{{cookiecutter.project_slug}}/.github/codejson/{{cookiecutter.project_name}}/code.json",
+      "sha256": "c8ccaa3e0a3718c05613b34ece33c403f385aee833e65a2477cbdc802fb503a4"
+    },
+    {
+      "source_path": "tier2/{{cookiecutter.project_slug}}/CONTRIBUTING.md",
+      "sha256": "98fd6396793e47cce8082bd1d349c409e13dccf2a71a10787d106555dac5e36a"
+    },
+    {
+      "source_path": "tier2/{{cookiecutter.project_slug}}/SECURITY.md",
+      "sha256": "62ee897c24ae7bc4cb5c7ab2b3210d268c1a4d3f5b053d5c3c26f01f19274509"
+    },
+    {
+      "source_path": "tier2/{{cookiecutter.project_slug}}/CODE_OF_CONDUCT.md",
+      "sha256": "82ae2b58aa4e77087ea01376db7341547be7cc90fb229a856f0bc6532a28dd5f"
+    },
+    {
+      "source_path": "tier2/{{cookiecutter.project_slug}}/COMMUNITY.md",
+      "sha256": "6d8cec22c41ecc0d2e10aaf2b1879ea341a496acde75b3386295b0802cfe3a74"
+    },
+    {
+      "source_path": "tier2/{{cookiecutter.project_slug}}/README.md",
+      "sha256": "5266288e3effe28710da45e80cd951ac387a83946720072e3c531f5914fd1b3b"
+    },
+    {
+      "source_path": "tier2/{{cookiecutter.project_slug}}/.github/PULL_REQUEST_TEMPLATE.md",
+      "sha256": "442f2fee003ff69db13c21ee7db842184b3be88f0e13af6e7534bfbd022c1dba"
+    },
+    {
+      "source_path": "tier2/{{cookiecutter.project_slug}}/.github/CODEOWNERS.md",
+      "sha256": "6138dd04cce3f95bd98410f84fbbe9106a9a7e849dc0b9b94cc9c743158f4bbf"
+    },
+    {
+      "source_path": "tier2/{{cookiecutter.project_slug}}/.github/workflows/gitleaks.yml",
+      "sha256": "750b091571f8487fa1a23b6abdda7a8c7efdcaac17126d626503ab61c5d8e5bd"
+    },
+    {
+      "source_path": "tier2/{{cookiecutter.project_slug}}/.github/workflows/repoHygieneCheck.yml",
+      "sha256": "5c65165ef5f094441d600d38e05ed869f7cf0b5ffe64645321d4bd7007f45806"
+    },
+    {
+      "source_path": "tier2/{{cookiecutter.project_slug}}/.github/.gitleaks.toml",
+      "sha256": "e5a19bd62d3371184ace22453f353c825f4961c1b469911356167417ce00bed2"
+    },
+    {
+      "source_path": "tier0/{{cookiecutter.project_slug}}/repolinter.json",
+      "sha256": "30432853999e505e3fcd10f923aa58224b16d029fd2da65aefb6fa4bf3c274a7"
+    },
+    {
+      "source_path": "tier1/{{cookiecutter.project_slug}}/repolinter.json",
+      "sha256": "06b99abd6a78bc84b68ba3e6130b832bdd3fba16c4cf428dc39089797c4e7f2f"
+    },
+    {
+      "source_path": "tier2/{{cookiecutter.project_slug}}/repolinter.json",
+      "sha256": "173326b30e2c6ad43af28f69d5c6773242d615b7bb8f4cdaf399dc32ceab4e09"
+    }
+  ],
+  "validationTools": {
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1",
+    "eslint": "10.15.0",
+    "eslint-plugin-security": "4.2.1",
+    "repolinter": "0.12.0",
+    "yaml": "2.9.1"
+  },
+  "validationLockSha256": "2e86f6e9b1e8c5bd156998743f51cce6e0a46a584e63850c07bbf7dade935b76"
+}

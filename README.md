@@ -7,6 +7,8 @@ software work understand what governs a change, decide what should happen, and
 continue when the original conversation or contributor is gone. It optimizes for
 **human context: understanding, agency and continuity**.
 
+## About the Project
+
 Today it is an experimental development harness made of readable repository files.
 You can use the task outline and working practices below for one bounded change,
 or inspect the fictional recovery example without executing anything. No agent
@@ -14,6 +16,28 @@ runtime is required. This README owns the current human-facing principles and
 operating guidance; [AGENTS.md](AGENTS.md) remains this repository's agent entry
 point and owns its scope, preservation and security instructions. A task's grant
 and acceptance criteria determine what work may actually proceed.
+
+### Project Vision
+
+Someone who was absent today can understand and make the next safe change without
+reconstructing the original conversation.
+
+### Project Mission
+
+Preserve usable human context through readable decisions, bounded work, recoverable
+evidence and proportionate review. These are design commitments, not measured gains.
+
+### Agency Mission
+
+[CMS](https://www.cms.gov/about-cms) administers Medicare, Medicaid, CHIP and the
+Health Insurance Marketplace. The applicable [CMS Open Source Policy](https://github.com/CMSGov/cms-open-source-policy/blob/f4b95dfeaf823c7f28df7b3db89d75c6ce86dc30/Policy.md)
+supports public reuse and collaboration; no agency approval is inferred from that link.
+
+### Team Mission
+
+For this project, CMS OSPO's responsibility is internal maintenance of reusable
+human-context guidance. The commissioning human supplied that ownership and its
+CMS/OHTP/OSPG group; no unpublished team charter is reconstructed.
 
 [Begin a task](#begin-one-useful-task) · [Principles](#principles) ·
 [Working practices](#working-practices) · [Evidence and limits](#evidence-and-limits) ·
@@ -269,7 +293,34 @@ applicability remain experimental. Independent review is scoped evidence, not pr
 of human comprehensibility. No file layout guarantees continuity, and these limits
 do not prevent a willing maintainer from trying one already-needed bounded task.
 
+## Contributing and Local Development
+
+**Core Team and Codeowners:** CMS OSPO owns and internally maintains this project;
+[COMMUNITY.md](COMMUNITY.md) records accountable roles and contacts. No named GitHub
+CODEOWNERS assignment is claimed. **Community Guidelines** are in that file and
+[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+
+**Local Development:** use the [task outline](#begin-one-useful-task) for ordinary
+work. The [contributing instructions](CONTRIBUTING.md#testing-conventions) provide
+pinned, isolated validation setup and commands. There is no compiled product or
+runtime installation. **Coding Style and Linters:** follow [the principles](#principles)
+and preserve the standard repolinter rules; presence checks do not verify content.
+
+**Policies / Open Source Policy:** this project inherits the applicable
+[CMS Open Source Policy](https://github.com/CMSGov/cms-open-source-policy/blob/f4b95dfeaf823c7f28df7b3db89d75c6ce86dc30/Policy.md).
+The **Security and Responsible Disclosure Policy** is [SECURITY.md](SECURITY.md).
+Contribution terms, required AI disclosure and branching are in
+[CONTRIBUTING.md](CONTRIBUTING.md); no optional DCO, release, website or package
+machinery is selected. Governance and Feedback use CMS OSPO and the public issue
+tracker described in COMMUNITY. Required institutional review remains separate.
+
+**Software Bill of Materials:** no product dependency inventory is asserted.
+Validation-only dependencies are pinned in `tools/validation/package-lock.json`;
+`code.json` records SBOM as `None` using the schema's supported value.
+
 ## Sources and licensing
+
+**Documentation Index:** the links below identify canonical sources and records.
 
 The [original exploratory note](history/human-legible-agentic-software-development.md)
 is preserved unchanged as history. The current guidance incorporates the later
@@ -284,12 +335,15 @@ boundaries remain in Git, as explained in [provenance](PROVENANCE.md).
 Indelegible's human-selected project license is **CC0-1.0**, retained in
 [LICENSE](LICENSE) from the public repository's initialization. Upstream source
 notices and adaptation attribution remain in [PROVENANCE.md](PROVENANCE.md).
-The separately supplied historical original has unresolved distribution rights:
-the needed clarification is who holds the relevant rights and whether that person
-has authorized its public distribution here under CC0-1.0 or other stated terms.
-The project license alone does not establish that permission or invent authorship.
+The commissioning human, who confirms they are the Tier2 Authority, authorizes
+distribution of the supplied historical original under CC0. Its bytes are unchanged;
+this records permission without inventing sole authorship or a signed instrument.
 
-[The outbound preparation assessment](REVIEW.md#integration-and-tier2-preparation)
+**Public domain:** contributions follow the standard CC0 terms in
+[CONTRIBUTING.md](CONTRIBUTING.md#public-domain). Standard-policy sources, versions
+and material adaptations are recorded in PROVENANCE.
+
+[The current outbound preparation](REVIEW.md#tier2-local-preparation)
 records the local history integration, Tier2 requirement map and proposed checklist
 corrections. It is preparation for review, not institutional clearance or permission
 to publish.

@@ -1,46 +1,55 @@
-# Local integration and outbound preparation
+# Tier2 local preparation and publication handoff
 
-The human authorizes local integration of both histories, selected-license wording,
-bounded read-only Tier2 methodology recovery, concrete checklist proposals, one
-fresh independent review, local checks and commits. No push, settings change,
-workflow trigger, package install, external-target work, new experiment or source
-modification is authorized. Unresolved policy proposals remain proposals.
+The commissioning human confirms Tier2 Authority, CC0 distribution permission for
+the unchanged historical note, and inheritance of verified standard DSACMS policies.
+CMS OSPO is the human-supplied internal maintainer; metadata facts are attributed
+in [the current task record](REVIEW.md#tier2-local-preparation). CC0 selection and
+original-distribution permission are settled; no sole authorship or signature is
+invented. Earlier reviews remain historical.
 
-Initial clean local main: `538a845ac24cd8ccb4ff3e588ea76beebeec0049`; no remotes or
-unrelated changes. Origin now names `https://github.com/DSACMS/indelegible.git`.
-Main-only fetch matched remote root `684c91de745880d385cc3a77bc76670d8fd435d7`.
-Normal merge `a8e39c0b5c88bd4c07ca758ccc822ca849283708` preserves both tips as ancestors,
-both original roots and all prior commits, adding only the unchanged remote LICENSE.
-The [task record](REVIEW.md#integration-and-tier2-preparation) carries exact parents,
-source/version boundaries, requirement map and proposed corrections T1–T10.
+Starting clean main: `d727667c7cbac13c4d4ab3de700536880c3e18d3`. Origin remains
+`https://github.com/DSACMS/indelegible.git`; observed remote main is
+`684c91de745880d385cc3a77bc76670d8fd435d7`. The prior two-root integration remains
+preserved and is not repeated.
 
-CC0-1.0 is selected and retained in LICENSE; no project-license choice remains.
-The precise historical-original rights clarification is in
-[PROVENANCE.md](PROVENANCE.md#licensing). Earlier reviews and original/frozen
-witness artifacts remain unchanged. Publication of full history includes the
-historical original, so current-tree omission alone would not resolve its rights.
+Prepared: meaningful standard policy/contribution/community files, direct code.json,
+pinned schema/source notices, all63 repolinter rules, isolated reproducible tools,
+read-only workflow files and the exact proposed upstream checklist patch. README
+remains the main human guide. Source versions/material differences and local
+clarifications are recorded in [PROVENANCE](PROVENANCE.md#standard-policy-adaptation).
+One fresh local agent review returned REVISE for three contradictory residual
+instructions in the proposed upstream patch; focused correction/verification
+returned APPROVE. Original findings remain retained. Local checks pass within their
+recorded scopes, with six triaged source warnings, eight optional presence warnings
+and 12 dependency advisory entries requiring qualified security disposition.
+Final candidate, staged diff, committed-history gate and remote-ref observation
+are bound in the excluded completion evidence; no hosted pass is claimed.
 
-Completed local scope: license corrections and concrete outbound assessment. One
-fresh independent review approved; its low navigation finding E1 was corrected and
-focused verification approved. Local links, preservation, ancestry, privacy,
-whitespace and current-content security checks pass. Complete staged-diff evidence,
-final committed-history scan and actual remote-ref comparison belong to the local
-completion record after the documentation commit. No institutional Tier2 clearance,
-settings verification or hosted job success is claimed.
-Noncanonical inspection/fetch/merge/source bindings, frozen candidate, original
-review, checks and exact final commit/ref completion record live in
-`indelegible/outbound-preparation/` beneath this checkout's resolved Git directory,
-verified excluded from tracking; local durability is not backup.
+Finite remaining publication prerequisites:
 
-Consequential remaining decisions: rightsholder permission for the historical
-original; Tier2 owner's applicable version, review/attestation and documentation
-scope; metadata/policy/contact facts and any approved mapping/exception; repository
-admin controls/bootstrap path and eventual publication grant. Libyears' waivers,
-approvals and observation ledger are not transferred. Source run 007-0062 stays
-historical; source-ledger reconciliation is not resumed.
+1. Tier2 Authority obtains and records the two qualified independent engineer
+   reviews of the exact candidate, including the retained dependency-advisory
+   disposition, and the applicable institutional risk/sign-off attestations.
+   [The task record](REVIEW.md#controls-human-review-and-publication-handoff) names
+   ISSO/ISG/business-owner and TRB/OGC routing, plus the CMS-policy applicability
+   disposition for an existing project page, staffing and test/build coverage.
+   None is inferred from the settled CC0 decision or documentation-only scope.
+2. Repository admin verifies required alerts/actions/branch controls and records
+   the permitted bootstrap path. Public main is currently unprotected; no settings
+   are changed here. Uploaded-candidate check evidence follows upload, not before.
+3. Human supplies a separate bounded publication grant after those prerequisites.
+   A normal main fast-forward block is inappropriate if enforced controls require PR.
 
-**One next useful task:** obtain the named Tier2 owner's disposition on the mapped
-open requirements and T1–T10, then prepare only the agreed missing artifacts and
-controls under a bounded follow-up grant. No institutional source was contacted
-here; the retained source copy cannot establish current policy.
+No project-license or historical-original permission question remains. Clone traffic
+was not observed; metadata does not invent it. Local check outcomes, original
+findings, exact review candidate, final HEAD/ref observation and a blocked exact
+publication block are retained beneath this checkout's resolved Git directory at
+`indelegible/tier2-local/`, verified excluded from tracking. Local durability is not
+backup; no ledger or unavailable telemetry is introduced.
+
+Next action: the Tier2 Authority appoints the two qualified independent engineers
+to review the exact completed candidate and retained evidence, particularly the
+legacy repolinter dependency disposition. Admin control preparation may proceed
+independently under appropriate authority. Do not publish or change
+settings, trigger Actions, announce, submit inventory, tag or release in this task.
 Push performed: NO.

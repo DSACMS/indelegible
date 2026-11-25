@@ -1,0 +1,76 @@
+{
+  "name": "Indelegible",
+  "description": "Readable repository guidance for understanding, directing and continuing agent-assisted software work.",
+  "longDescription": "Indelegible is an experimental documentation harness for maintainers, contributors and people directing agent-assisted software work. It preserves human context as understanding, agency and continuity through a task outline, bounded authority, proportionate review, durable evidence and recovery questions. Validation tooling checks repository hygiene, metadata, workflows and security; it is not an automated development runtime.",
+  "status": "Development",
+  "permissions": {
+    "licenses": [
+      {
+        "name": "CC0-1.0",
+        "URL": "https://github.com/DSACMS/indelegible/blob/main/LICENSE"
+      }
+    ],
+    "usageType": [
+      "openSource"
+    ]
+  },
+  "organization": "Centers for Medicare & Medicaid Services",
+  "repositoryURL": "https://github.com/DSACMS/indelegible",
+  "repositoryHost": "github.com/DSACMS",
+  "repositoryVisibility": "public",
+  "vcs": "git",
+  "laborHours": 10,
+  "reuseFrequency": {
+    "forks": 0
+  },
+  "platforms": [
+    "other"
+  ],
+  "categories": [
+    "development"
+  ],
+  "softwareType": "configurationFiles",
+  "languages": [
+    "Markdown",
+    "JavaScript",
+    "JSON",
+    "YAML"
+  ],
+  "maintenance": "internal",
+  "contractNumber": [
+    "0"
+  ],
+  "SBOM": "None",
+  "date": {
+    "created": "2026-11-25T12:21:25-05:00",
+    "metadataLastUpdated": "2026-11-25T18:51:03Z"
+  },
+  "tags": [
+    "agent-assisted-development",
+    "documentation",
+    "human-context",
+    "maintainerware"
+  ],
+  "contact": {
+    "email": "opensource@cms.hhs.gov",
+    "name": "CMS OSPO"
+  },
+  "feedbackMechanism": "https://github.com/DSACMS/indelegible/issues",
+  "AIUseCaseID": "0",
+  "localisation": false,
+  "repositoryType": "tools",
+  "userInput": false,
+  "fismaLevel": "low",
+  "group": "CMS/OHTP/OSPG",
+  "projects": [],
+  "systems": [
+    "libyears"
+  ],
+  "subsetInHealthcare": [
+    "operational"
+  ],
+  "userType": [
+    "government"
+  ],
+  "maturityModelTier": 2
+}

@@ -1,0 +1,41 @@
+name: Repository security
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 8 * * 1'
+permissions:
+  contents: read
+jobs:
+  security:
+    name: Source and history security checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Install isolated locked validators without lifecycle hooks
+        run: npm ci --prefix tools/validation --ignore-scripts --no-audit --no-fund
+      - name: Analyze repository validation source
+        run: node tools/validation/node_modules/eslint/bin/eslint.js --config tools/validation/eslint.config.mjs tools/*.mjs
+      - name: Fetch and verify the pinned scanner
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP"
+          curl -q -fsSL --proto '=https' --proto-redir '=https' https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_linux_x64.tar.gz -o gitleaks.tar.gz
+          echo '551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb  gitleaks.tar.gz' | sha256sum --check
+          mkdir -p indelegible-scanner
+          tar -xzf gitleaks.tar.gz -C indelegible-scanner gitleaks
+          echo "$RUNNER_TEMP/indelegible-scanner" >> "$GITHUB_PATH"
+      - name: Scan checked-out content
+        run: node tools/security.mjs content
+      - name: Scan all available non-shallow committed history
+        run: node tools/security.mjs history

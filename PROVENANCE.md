@@ -82,8 +82,8 @@ review; those records retain that finding. For the earlier editorial task, the
 human supplied `human-legible-agentic-software-development.md` as the only initial
 untracked file. Its title is “Human-Legible Agentic Software Development” with
 subtitle “A working note on conserving human attention” and status Exploratory.
-The human identifies it as predating the NuGet, Maven and SBOM work. No original
-date, authorship attribution, license or publication history has been established.
+The human identifies it as predating the NuGet, Maven and SBOM work. At receipt, no original date, authorship attribution, license or publication history
+was established. Distribution permission is now supplied as recorded below.
 
 It was moved without content changes to
 [history/human-legible-agentic-software-development.md](history/human-legible-agentic-software-development.md).
@@ -161,12 +161,90 @@ The upstream libyears CC0 notice remains unchanged at
 with accurate adaptation attribution. Its bytes differ from the root LICENSE;
 both notices are retained in their respective roles.
 
-The supplied historical original has no established authorship, license or public
-distribution permission in the available record. The exact outstanding clarification
-is: **who holds the relevant rights to that supplied file, and has that rightsholder
-authorized its public distribution in this repository under CC0-1.0 or other stated
-terms?** A statement from the authorized rightsholder, or an existing applicable
-license/permission identifying the work, would resolve that gap. No third-party
-rights are inferred from the project license. Its original bytes remain unchanged.
-Authorized local work is completable while this distribution dependency remains;
-publication of the full history would expose the historical original too.
+The commissioning human now confirms they are the Tier2 Authority and explicitly
+authorizes distribution of the supplied historical working note under CC0. This
+settles the recorded permission question for this task without inventing sole
+authorship, a signature or an institutional sign-off document. The historical
+original's exact bytes remain unchanged. Its original date, authorship attribution
+and publication history remain unestablished; they are not prerequisites invented
+in place of the supplied authorization.
+
+## Standard policy adaptation
+
+The same human authorizes inheritance of applicable standard DSACMS policies.
+Current source verification uses **repo-scaffolder
+`172e445ce022d98d06b457ca03a0a5cb8e4b1dad`**, compared with the previously retained
+`14e2a01482084da7bc1a5aac825e2f1ea23e8529`. The Tier2 checklist is byte-identical
+(SHA-256 `144144230f7cdf1dfd94bace288d8857085870b4aa17d6f509bca17368528c77`).
+The relevant template change is CODE_OF_CONDUCT.md: the current wording replaces
+the earlier list “gender, gender identity, expression” with “sex”. The current
+standard text and its Contributor Covenant/USDS/Justice40 credits are retained,
+without blending versions. Other inspected Tier0–2 rule/template inputs retain
+their source blob identities. Sources are bound in
+[the validation manifest](provenance/tools/validation-sources.json).
+
+CONTRIBUTING retains the current template's AI-use policy, CMS open-source contact,
+CC0 contribution terms and security-reporting policy. Project-specific setup and
+workflow examples replace template TODOs; optional sync, deployment, release,
+DCO, website and package machinery are not claimed. COMMUNITY links README's
+principles and retains the standard interaction guidelines/acknowledgements,
+with human-supplied office ownership instead of invented individual rosters.
+
+The applicable [CMS Open Source Policy](https://github.com/CMSGov/cms-open-source-policy/blob/f4b95dfeaf823c7f28df7b3db89d75c6ce86dc30/Policy.md)
+is pinned to `f4b95dfeaf823c7f28df7b3db89d75c6ce86dc30`. Its institutional review
+and risk requirements are not represented as completed merely because the human
+is Tier2 Authority. The [official CMS vulnerability policy](https://www.cms.gov/about-cms/information-systems/privacy/vulnerability-disclosure-policy)
+was inspected and confirms the template's CMS Bugcrowd channel and three-business-day
+acknowledgement. The linked HHS policy describes a different HHS portal; it is not
+silently substituted for CMS reporting. Neither source nor this repository grants
+permission to test third-party infrastructure. The CMS page supplies the scope
+contact for uncertainty. No report or email was sent.
+
+CMS metadata schema 2.1.0 and documentation are pinned to gov-codejson
+`06c7d5083f7dd7ecef0240fb7baa7453662fd583`. The exact
+[schema](provenance/tools/cms-schema-2.1.0.json) and its unchanged
+[CC0 notice](provenance/tools/gov-codejson-CC0.txt) are retained. Generator source
+was read, never run: it initializes/commits/pushes repositories, removes generation
+directories, evaluates supplied boolean strings and may emit null laborHours despite
+the schema's required number. It also picks a root timestamp without distinguishing
+this project's two roots. Metadata is prepared directly from actual facts instead.
+
+Human-supplied inventory facts: CMS OSPO owner, internal maintenance, FISMA Low,
+CMS/OHTP/OSPG group, laborHours 10, contract number 0, related system libyears and AI
+inventory ID 0. The schema represents the contract as `["0"]`, not `[0]`; labor
+is attributed to the human rather than labeled an SCC/COCOMO measurement. Contact
+email is the verified standard opensource@cms.hhs.gov. Public forks 0 is a snapshot
+from the named destination's API. Clone traffic was not observed and is omitted using the schema's permitted
+omission, not fabricated; no additional credentials were sought.
+Creation records the original local root's commit timestamp, not the remote
+initialization or the historical note's original date. `SBOM: "None"` is supported
+by the schema; no product inventory is asserted. Empty associated-project values
+do not purport to reconstruct unreported programs. Metadata interpretation and
+required human attestations remain separate from JSON/schema validation.
+
+repolinter.json is the recursively merged current Tier0→Tier1→Tier2 ruleset with
+all 63 rule definitions/levels preserved. It runs fixed-path dry-run checks; no
+upstream first-run labels, configuration overwrite or PAT/PR-writing hooks are
+installed. SECURITY and the generic six DSACMS secret patterns come from current
+Tier2. GitLeaks bundled defaults remain enabled and source pattern IDs are prefixed
+to avoid replacing a built-in rule. No ignore file, rule-wide suppression or
+libyears exception is introduced. Source statements and raw acquisition/failed
+attempts stay in excluded task evidence; published files contain no operational
+handoffs or trust inputs.
+
+Validation-only packages are pinned with a lockfile and lifecycle hooks disabled;
+they are not an Indelegible runtime. The installed interfaces were inspected before
+commands were prepared. Initial Python TLS acquisition failed; system curl with
+normal verified TLS succeeded, without bypass or trust discovery. An initial
+capture-path collision was corrected by distinct overview/project locations while
+reusing valid source bytes. ESLint 9 reported end of support; latest ESLint 10 first
+exposed an incompatible older plugin. The corrected versions are pinned together.
+Legacy repolinter dependency advisories and actual source-analysis findings are
+retained and triaged in [the task record](REVIEW.md#tier2-local-preparation), not
+hidden behind a presence-check pass.
+
+The [upstream checklist patch](proposals/tier2-checklist.patch) is proposed only,
+against the current scaffolder revision above. It is not a competing institutional
+checklist. Local T1/T3/T4/T5/T7/T8 clarifications are implemented through sources,
+separate checks, safe setup and actual read-only workflows; qualified review and
+external policy authority are preserved.

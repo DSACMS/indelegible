@@ -1,0 +1,3 @@
+# Isolated local validation dependencies and recreatable output.
+tools/validation/node_modules/
+.DS_Store

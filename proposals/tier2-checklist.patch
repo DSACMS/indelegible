@@ -1,0 +1,184 @@
+--- a/tier2/checklist.md
++++ b/tier2/checklist.md
+@@ -3,6 +3,38 @@
+ ## Tier 2: Close Collaboration
+
+ This is a review process to approve CMS-developed software to be released open source at [github.cms.gov](https://github.cms.gov/). If you would like your repository to be released, please complete the following steps.
++
++### Evidence provenance and phase ownership
++
++Record the checklist, template and metadata-schema revisions reviewed, the review
++date, candidate commit or digest, and responsible actor. Distinguish inspected
++evidence from reported approvals; a retained checklist copy does not certify current
++policy or transfer another project's waiver.
++
++Keep file/section presence, substantive content, JSON parsing, schema compliance,
++factual accuracy, source vulnerability analysis, secret scanning and qualified
++human review as separate results. One identified scan can support several items
++when its exact scope and outcome are referenced, without counting it as independent
++checks. A linter pass does not establish institutional approval.
++
++Separate repository existence/visibility, local preparation, administrative
++controls, content publication and hosted execution. Verify available required
++controls before publication; identify any bootstrap prerequisite and obtain its
++specific disposition. Do not require uploaded-candidate jobs to pass before their
++first authorized upload. Observe those jobs afterward on the exact revision and
++keep closure pending until required evidence exists. Protect actual approved
++branches; examples do not require creating dev, releases, websites or packages.
++
++Before publication, scan proposed current content and then, after the final commit,
++all required available non-shallow committed history. Record scanner version,
++configuration, refs, candidate and result. Reconcile hosted version/scope and extra
++merge refs before claiming parity. Preserve original findings and use narrowly
++authorized treatment, never an unrecorded broad suppression or payload repetition.
++
++Retain specifically required files. Give shared prose one canonical owner and link
++exact sections from those files. Clearly label optional automation and DCO; do not
++convert examples into prerequisites or infer a required-file waiver.
++
+
+ [Prerequisites](#prerequisites)
+
+@@ -112,6 +144,11 @@
+ ### Code Review
+
+ The existing codebase should be given a one time, top-to-bottom code quality and security vulnerability review by two (or more) engineers who have written production code within the past two years, in the languages used in the project. Engineers should review credential management practices with the development team to ensure that any keys, passwords, or other sensitive configurations are not checked into source code or in the git history.
++
++Record each required reviewer's identity, organization, qualifications,
++independence, candidate, scope, findings and verdict. Agent review does not replace
++this qualified-engineer gate. Any authorized exception needs its own authority,
++scope, rationale and evidence; another project's reported waiver does not transfer.
+
+ The engineers can be federal government employees or trusted partners from outside the agency from other contracts, or from independent testing contracts. Their names, organizations, comments and approval/disapproval on the overall codebase should be tracked in this document.
+
+@@ -167,11 +204,14 @@
+
+ Review the history of commits to the version control system used, and whether the team prefers to clean (e.g., rebase) this history before releasing to the public.
+
+-If not rebasing, verify that:
++For the intended published history, regardless of any proposed rewrite, verify that:
+
+ 1. There are no obscene or impolite remarks in comments or commit history
+ 2. There are no sensitive internal URLs/IP Addresses in comments or commit history
+ 3. There are no credential files such as Passwords, API/SSH/GPG keys checked into the repo.
++
++Preserve history by default. History rewriting is a separately authorized
++remediation, not a scanner or a substitute for review.
+
+ Consider using the following tools to perform the tasks above:
+
+@@ -189,34 +229,22 @@
+
+ As part of our repository hygiene requirements, the project must include certain files and sections. Using repolinter will help you identify missing files and content that will need to be added to your repository before outbounding.
+
+-#### Running repolinter on your repository locally
+-
+-1. Install repolinter
+-
+-```
+-npm install -g repolinter
+-```
+-
+-2. Add [repolinter.json](https://github.com/DSACMS/repo-scaffolder/blob/main/tier1/%7B%7Bcookiecutter.project_slug%7D%7D/repolinter.json) to the root directory of your project
+-
+-3. Run command:
+-
+-```
+-repolinter lint .
+-```
+-
+-4. The result produces a list of files section existence checks, indicating whether each requirement was met or not.
+-
+-![repolinter results](../assets/images/repolinter-results.png)
+-
+-#### Running repolinter on your repository via GitHub Actions
+-
+-1. Add the tier-specific [repoHygieneCheck.yml](https://github.com/DSACMS/repo-scaffolder/blob/main/tier2/%7B%7Bcookiecutter.project_slug%7D%7D/.github/workflows/repoHygieneCheck.yml) to the github directory of your project. The file includes a job that runs repolinter called [repolinter-checks](https://github.com/DSACMS/repo-scaffolder/blob/main/tier2/%7B%7Bcookiecutter.project_slug%7D%7D/.github/workflows/repoHygieneCheck.yml#L56)
+-
+-2. Manually trigger the workflow.
+-
+-3. The result produces an issue on the repository with a list of file and section
+-   existence checks, indicating whether each requirement was met or not.
++#### Running repolinter on an existing repository
++
++Use a verified, pinned, isolated tool setup with lifecycle hooks disabled. Review
++its dependency findings and installed interface. Resolve the pinned tier0, tier1
++and tier2 rule inheritance for the standalone CLI without weakening rule levels.
++Use local fixed-path dry-run validation; do not invoke repository-creation hooks,
++clone arbitrary targets, overwrite configuration or imply tools are installed.
++Record optional missing axioms separately from required presence results.
++
++#### Running repolinter via GitHub Actions
++
++Put an approved workflow under .github/workflows/ and name its actual job. Verify
++its triggers, pinned supported actions, permissions and output location. For
++validation, prefer read-only contents permissions and logs/artifacts; do not assume
++issue/PR creation, first-run labels or a PAT are necessary. Local workflow parsing
++is preparation, not hosted execution. Observe actual results after authorized upload.
+
+ #### Review Content
+
+@@ -333,22 +361,16 @@
+
+ The [automated-codejson-generator](https://github.com/DSACMS/automated-codejson-generator) is a GitHub Action that automatically generates and maintains code.json files for federal open source repositories. It ensures schema consistency and automates various metadata calculations.
+
+-**Using the repo-scaffolder cookiecutter CLI**
+-
+-1. Install cookiecutter
+-```
+-python3 -m pip install --user cookiecutter
+-```
+-
+-2. In the `.github` directory, run the command:
+-
+-```
+-cookiecutter . –directory=codejson
+-```
+-
+-3. Answer various questions about your project.
+-
+-4. A code.json file will be generated with your responses.
++**Existing-repository metadata preparation**
++
++Prepare code.json directly and validate it against the named applicable CMS schema.
++Check factual accuracy separately. Use the known destination URL before content
++publication. Do not invent counts, labor, classifications, contract numbers or
++approvals; use only schema-supported unknown values or explicitly authorized
++deferrals. Record snapshot dates and distinguish inventory submission from document
++creation. A generator may be used only from a separately authorized checkout with
++verified ASCII options, version and reviewed hooks; creation hooks must not run in
++an existing repository.
+
+ As you continue development in this repository, it is important to keep this file up-to-date. Our [automated-codejson-generator](https://github.com/DSACMS/automated-codejson-generator) can assist with updating this file.
+
+@@ -432,7 +454,11 @@
+
+ ### Flipping the Switch: Making the Repository Public
+
+-Once the repository has passed outbound review, we are ready to “flip the switch” and officially make it public. Once made public, there are a couple of actions that need to be taken:
++After the applicable outbound requirements and authorization are satisfied,
++publish the exact approved content using the agreed repository-control path.
++An already public initialization is not publication of the local candidate.
++Verify actual refs after publication, then record uploaded-candidate workflow
++results, administrative configuration and rollout/inventory actions separately.
+
+ #### Repository Actions
+
+@@ -449,14 +475,14 @@
+
+ - [ ] **Branch Protections**
+
+-  _Ensures the integrity of important branches by preventing unauthorized actions like force pushes and requiring pull request reviews with specific checks before merging. Dev and main should be protected branches in the repository._
++  _Ensures the integrity of important branches by preventing unauthorized actions like force pushes and requiring pull request reviews with specific checks before merging. Apply protections to branches selected by the approved workflow; a dev branch is not a prerequisite._
+
+ - [ ] **Git Branching**
+
+-  _After making the repository public, make sure there is a coherent git branching plan in place. For example: agree to merge feature related pull requests into dev but merge bug fixes into main instead of dev first._
++  _Before publishing content, agree on the actual branch and merge workflow, required controls and permitted bootstrap path. Resolve any initial publication exception explicitly rather than deferring the branch plan until after publication._
+
+ - [ ] **Add Repolinter GH Action to CI**
+
+-  _For ongoing adherence to repository hygiene standards, integrate the [repolinter GitHub Action](https://github.com/DSACMS/metrics/blob/main/.github/workflows/checks.yml) into your CI pipeline. This addition enhances your workflow by automatically enforcing repository cleanliness standards._
++  _For ongoing hygiene checks, use the approved repository-owned workflow under .github/workflows/. Record its actual jobs, triggers, minimum permissions and log/artifact outputs. Do not require an unrelated example workflow or imply that local inspection proves hosted execution._
+
+ - [ ] **Optional: DCO (Developer Certificate of Origin)**
